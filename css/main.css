@@ -44,9 +44,9 @@ header ul li a img{
 }
 .menu-div{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 20px 10vw;
+    margin: 20px auto;
 }
 .menu ul li {
     cursor: pointer;
@@ -58,8 +58,15 @@ header ul li a img{
     transform: rotate(-90deg);
 }
 .menu ul li:hover{
-    transition: 0.2sec ease-in;
+    transition: 0.2s ease-in;
     color: #7b44ff;
+}
+
+.product-btn:hover .arr,
+.otherlink-btn:hover .arr{
+    filter: brightness(0) saturate(100%) sepia(100%) hue-rotate(250deg);
+    transition: 0.3s ease-out;
+    transform: rotate(90deg);
 }
 
 .User-icon:hover .user-icon-box{
@@ -109,14 +116,14 @@ header ul li a img{
     padding: 2rem;
     border-radius: 8px;
     border: none;
-    width: 300px;
+    width: 250px;
     background-color: #F3F4F6;
 }
 
 .search {
   position: relative;
   width: 100%;
-  max-width: 400px;
+  max-width: 250px;
 }
 
 .search input {
@@ -138,6 +145,71 @@ header ul li a img{
 .search input:focus{
     outline: none;                                                                                              
 }
+
+.menu-icon{
+    display: none;
+}
+
+.products-box{
+    position: absolute;
+    height: 350px;
+    width : 550px;
+    background-color: #F3F4F6;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+
+    z-index: 99;
+
+    top: 20%;
+    left: 5%;
+
+    display: none;
+}
+
+.products-box a,
+.otherlink-box a{
+    text-decoration: none;
+    color: black;
+
+    font-weight: 300;
+}
+
+.products-box-left,
+.products-box-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.products-box a:hover{
+    transition: .5s ease-in;
+    color: #7b44ff;
+}
+
+.otherlink-box{
+    position: absolute;
+    height: 350px;
+    width : 270px;
+    background-color: #F3F4F6;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    vertical-align: middle;
+
+    z-index: 99;
+
+    top: 20%;
+    left: 30%;
+
+    padding: 2rem;
+    display: none;
+}
+
 .hero {
     position: relative;
     height: 300px;
@@ -316,4 +388,23 @@ header ul li a img{
     text-align: center;
     padding: 1rem;
     font-size: 0.8rem;
+}
+
+@media ( max-width : 812px){
+    .menu{
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .search{
+        max-width: 80vw;
+    }
+
+    .search input{
+        height: 50px;
+    }
+    .hero{
+        margin: 1rem 2rem;
+    }
 }
