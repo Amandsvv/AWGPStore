@@ -9,6 +9,7 @@
 
 * a{
     text-decoration: none;
+    color: black;
 }
 
 body {
@@ -496,8 +497,6 @@ header ul li a img {
     font-size: 0.8rem;
 }
 
-.popular-categories{
-}
 .popular-categories a{
     text-decoration: none;
     color: black;
