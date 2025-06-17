@@ -1,0 +1,16 @@
+[
+  { "name": "CD/DVD", "slug": "cd", "image": "Images/cd.png" },
+  { "name": "Health Products", "slug": "health-products", "image": "Images/wood.png" },
+  { "name": "Books", "slug": "books", "image": "Images/book.jpg" },
+  { "name": "Decoration", "slug": "decoration", "image": "Images/decor.jpg" },
+  { "name": "Notebook", "slug": "notebooks", "image": "Images/notebook.jpg" },
+  { "name": "Stickers", "slug": "stickers", "image": "Images/stickers.jpg" },
+  { "name": "Clothings", "slug": "clothings", "image": "Images/clothings.jpg" },
+  { "name": "Daily Use", "slug": "daily-use", "image": "Images/dailyuse.jpg" },
+  { "name": "Handloom", "slug": "handloom", "image": "Images/handloom.jpg" },
+  { "name": "Electronic Products", "slug": "electronics", "image": "Images/electronic.jpg" },
+  { "name": "Vangmay", "slug": "vangmay", "image": "Images/vangmay.jpg" },
+  { "name": "Magzines", "slug": "magzines", "image": "Images/magzine.jpg" },
+  { "name": "Puja Accessories", "slug": "puja-accessories", "image": "Images/puja.jpg" },
+  { "name": "Posters", "slug": "posters", "image": "Images/poster.jpg" }
+]

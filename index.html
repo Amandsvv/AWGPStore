@@ -21,24 +21,44 @@
             <li><a href="#"><img src="Images/home.png" alt="Home icon"></a></li>
             <li><a href="#"><img src="Images/cart.png" alt="Cart icon"></a></li>
             <li><a href="#"><img src="Images/bell.png" alt="Bell icon"></a></li>
-            <li><a href="#"><img src="Images/user.png" class="User-icon" alt="User icon"></a></li>
+            <li class="User-icon"><a href="#"><img src="Images/user.png" alt="User icon"></a>
+                <div class="user-icon-box">
+                    <a href="#"><img src="Images/user.png" alt="User icon">Profile</a>
+                    <a href="#"><img src="Images/box.png" alt="">My orders</a>
+                    <a href=""><img src="Images/heart.png" alt="">Wishlist</a>
+                    <a href=""><img src="Images/logout.png" alt="">logout</a>
+                </div>
+            </li>
         </ul>
     </header>
-
-    <div class="user-icon-box">
-        <a href="#"><img src="Images/user.png" alt="User icon">Profile</a>
-        <a href="#"><img src="Images/box.png" alt="">My orders</a>
-        <a href=""><img src="Images/heart.png" alt="">Wishlist</a>
-        <a href=""><img src="Images/logout.png" alt="">logout</a>
-    </div>
 
     <section class="menu-div">
         <div class="menu">
             <ul>
                 <li>About Us</li>
-                <li class="product-btn">Products <img class="arr" src="Images/left.png" alt="arrow" width="15px"></li>
+                <li class="product-btn">Products <img class="arr" src="Images/left.png" alt="arrow" width="15px">
+                   <div class="products-box box" id="categoryLinksBox"></div>
+                </li>
                 <li>Contact</li>
-                <li class="otherlink-btn">Other Links <img class="arr" src="Images/left.png" alt="arrow" width="15px"></li>
+                <li class="otherlink-btn">Other Links <img class="arr" src="Images/left.png" alt="arrow" width="15px">
+                    <div class="otherlink-box">
+
+                        <a href="https://www.awgp.org/en/about_us/mission_vision/origin_of_mission"
+                            target="_blank">Origin of Mission</a>
+                        <a href="https://www.awgp.org/en/about_us/mission_vision/social_reforms" target="_blank">Social
+                            Reforms</a>
+                        <a href="https://www.awgp.org/en/spiritual_wisdom/thought_transformation" target="_blank">Vichar
+                            Kranti Abhiyan</a>
+                        <a href="https://www.awgp.org/en/spiritual_wisdom/revival_of_rishi_tradition"
+                            target="_blank">Revival of Rishi Tradition</a>
+                        <a href="https://www.awgp.org/en/about_us/mission_vision/philosophy"
+                            target="_blank">Philosphy</a>
+                        <a href="https://www.awgp.org/en/about_us/mission_vision/history_and_achievements"
+                            target="_blank">Our Achievments</a>
+                        <a href="">History</a>
+
+                    </div>
+                </li>
             </ul>
         </div>
 
@@ -53,120 +73,78 @@
 
     </section>
 
-    <div class="products-box">
-        <div class="products-box-left">
-            <a href="">CD/DVD</a>
-            <a href="">Health Products</a>
-            <a href="">Books</a>
-            <a href="">Decoration</a>
-            <a href="">Notebook</a>
-            <a href="">Stickers</a>
-            <a href="">Clothings</a>
-        </div>
-
-        <div class="products-box-right">
-            <a href="">Daily Use</a>
-            <a href="">Handloom</a>
-            <a href="">Electronic Products</a>
-            <a href="">Vangmay</a>
-            <a href="">Magzines</a>
-            <a href="">Puja Accessories</a>
-            <a href="">Posters</a>
-        </div>
-    </div>
-
-    <div class="otherlink-box">
-
-        <a href="">Origin of Mission</a>
-        <a href="">Social Reforms</a>
-        <a href="">Vichar Kranti Abhiyan</a>
-        <a href="">Revival of Rishi Tradition</a>
-        <a href="">Philosphy</a>
-        <a href="">Our Achievments</a>
-        <a href="">History</a>
-
-    </div>
-
     <section class="hero">
         <div class="left-arrow"><img src="Images/left.png" alt="left-arrow" width="25" height="25"></div>
         <div class="text">
             <h2>Gayatri Mahavigyan</h2>
             <p>Get the knowledge of the true divine power of Maa Gayatri</p>
-            <button class="btn">Shop Now</button>
+            <button class="btn"><a href="html/category.html?category=books">Shop Now</a></button>
         </div>
         <img src="Images/gayatrimahavigyan.jpg" alt="Book" width="150">
         <div class="right-arrow"><img src="Images/right.png" alt="right-arrow" width="25" height="25"></div>
     </section>
 
+
     <section class="categories">
-        <h3>Categories</h3>
-        <div class="category-grid">
-            <div class="category-item">
-                <img src="Images/book.jpg" alt="Book">
-                <p>Book</p>
-            </div>
-            <div class="category-item">
-                <img src="Images/cd.png" alt="CD">
-                <p>CD</p>
-            </div>
-            <div class="category-item">
-                <img src="Images/notebook.jpg" alt="Notebook">
-                <p>Note Book</p>
-            </div>
-            <div class="category-item">
-                <img src="Images/wood.png" alt="health product">
-                <p>Health Products</p>
-            </div>
+        <div class="categories-div">
+            <h3>Categories</h3>
+            <button><a href="html/product.html">View More &#10095;</a></button>
         </div>
+        <div class="category-grid" id="categoryGrid"></div>
     </section>
+
 
     <section class="featured-products">
         <h3>Featured Products</h3>
-        <div class="product-grid">
-            <div class="product-item">
-                <img src="Images/product-1.png" alt="product-1">
-                <div>
-                    <p>Amalaki Vati</p><br>
-                    <p>Rs./ 83</p>
+        <div class="product-grid container">
+            <button class="btn-scroll btn-left" id="btn-left">&#10094;</button>
+            <div class="products-wrapper" id="products-wrapper">
+                <div class="product-item">
+                    <img src="Images/product-1.png" alt="product-1">
+                    <div>
+                        <p>Amalaki Vati</p><br>
+                        <p>Rs./ 83</p>
+                    </div>
+                    <div class="add-btn">
+                        <img src="Images/heart.png" alt="add to wishlist">
+                        <img src="Images/cart.png" alt="Add to cart">
+                    </div>
                 </div>
-                <div class="add-btn">
-                    <img src="Images/heart.png" alt="add to wishlist">
-                    <img src="Images/cart.png" alt="Add to cart">
+                <div class="product-item">
+                    <img src="Images/product-2.png" alt="product-1">
+                    <div>
+                        <p>Gayatari pari..</p><br>
+                        <p>Rs./ 24</p>
+                    </div>
+                    <div class="add-btn">
+                        <img src="Images/heart.png" alt="add to wishlist">
+                        <img src="Images/cart.png" alt="Add to cart">
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="Images/product-3.png" alt="product-1">
+                    <div>
+                        <p>The legend of a ..</p><br>
+                        <p>Rs./ 140</p>
+                    </div>
+                    <div class="add-btn">
+                        <img src="Images/heart.png" alt="add to wishlist">
+                        <img src="Images/cart.png" alt="Add to cart">
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="Images/product-4.png" alt="product-1">
+                    <div>
+                        <p>Gayatari Mahapura..</p><br>
+                        <p>Rs./ 9</p>
+                    </div>
+                    <div class="add-btn">
+                        <img src="Images/heart.png" alt="add to wishlist">
+                        <img src="Images/cart.png" alt="Add to cart">
+                    </div>
                 </div>
             </div>
-            <div class="product-item">
-                <img src="Images/product-2.png" alt="product-1">
-                <div>
-                    <p>Gayatari pari..</p><br>
-                    <p>Rs./ 24</p>
-                </div>
-                <div class="add-btn">
-                    <img src="Images/heart.png" alt="add to wishlist">
-                    <img src="Images/cart.png" alt="Add to cart">
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="Images/product-3.png" alt="product-1">
-                <div>
-                    <p>The legend of a ..</p><br>
-                    <p>Rs./ 140</p>
-                </div>
-                <div class="add-btn">
-                    <img src="Images/heart.png" alt="add to wishlist">
-                    <img src="Images/cart.png" alt="Add to cart">
-                </div>
-            </div>
-            <div class="product-item">
-                <img src="Images/product-4.png" alt="product-1">
-                <div>
-                    <p>Gayatari Mahapura..</p><br>
-                    <p>Rs./ 9</p>
-                </div>
-                <div class="add-btn">
-                    <img src="Images/heart.png" alt="add to wishlist">
-                    <img src="Images/cart.png" alt="Add to cart">
-                </div>
-            </div>
+            <button class="btn-scroll btn-right" id="btn-right">&#10095;</button>
         </div>
     </section>
 
@@ -180,14 +158,8 @@
                     <p>shop@awgpstore.com</p>
                 </div>
             </div>
-            <div class="footer-column">
+            <div class="footer-column" id="popular-cat">
                 <h4>Most Popular Categories</h4>
-                <ul>
-                    <li>Books</li>
-                    <li>Health Products</li>
-                    <li>Puja Products</li>
-                    <li>Clothes</li>
-                </ul>
             </div>
             <div class="footer-column">
                 <h4>Customer Services</h4>
@@ -205,6 +177,7 @@
     </footer>
 
     <script src="JS/main.js"></script>
+    <script src="JS/index.js"></script>
 </body>
 
 </html>

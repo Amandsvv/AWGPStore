@@ -1,0 +1,7 @@
+[
+  { "name": "CD/DVD", "slug": "cd", "image": "Images/cd.png" },
+  { "name": "Health Products", "slug": "health-products", "image": "Images/wood.png" },
+  { "name": "Books", "slug": "books", "image": "Images/book.jpg" },
+  { "name": "Decoration", "slug": "decoration", "image": "Images/decor.jpg" },
+  { "name": "Notebook", "slug": "notebooks", "image": "Images/notebook.jpg" }
+]

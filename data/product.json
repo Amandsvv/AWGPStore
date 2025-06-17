@@ -1,0 +1,870 @@
+{
+  "books": [
+    {
+      "id": "books1",
+      "name": "Gayatari Pariwaar..",
+      "price": 55,
+      "image": "../Images/book1.jpg"
+    },
+    {
+      "id": "books2",
+      "name": "Baal Sanskaar Shala",
+      "price": 60,
+      "image": "../Images/book2.jpg"
+    },
+    {
+      "id": "books3",
+      "name": "The Pioneers of..",
+      "price": 65,
+      "image": "../Images/book3.jpg"
+    },
+    {
+      "id": "books4",
+      "name": "Gayatari Suryapsthan",
+      "price": 70,
+      "image": "../Images/book4.jpg"
+    },
+    {
+      "id": "books5",
+      "name": "Eternity of Sound..",
+      "price": 75,
+      "image": "../Images/book5.jpg"
+    },
+    {
+      "id": "books6",
+      "name": "Let us Know Yugrishi",
+      "price": 80,
+      "image": "../Images/book6.jpg"
+    },
+    {
+      "id": "books7",
+      "name": "Saphal Jivan ki Disha..",
+      "price": 85,
+      "image": "../Images/book7.jpg"
+    },
+    {
+      "id": "books8",
+      "name": "Gayatari ka mantrathra",
+      "price": 90,
+      "image": "../Images/book8.jpg"
+    },
+    {
+      "id": "books9",
+      "name": "Gayatari ki Yugtirth..",
+      "price": 95,
+      "image": "../Images/book9.jpg"
+    },
+    {
+      "id": "books10",
+      "name": "Amaar Vaani",
+      "price": 100,
+      "image": "../Images/book10.jpg"
+    }
+  ],
+  "cd": [
+    {
+      "id": "cd1",
+      "name": "Cd Product 1",
+      "price": 55,
+      "image": "../Images/cd1.jpg"
+    },
+    {
+      "id": "cd2",
+      "name": "Cd Product 2",
+      "price": 60,
+      "image": "../Images/cd2.jpg"
+    },
+    {
+      "id": "cd3",
+      "name": "Cd Product 3",
+      "price": 65,
+      "image": "../Images/cd3.jpg"
+    },
+    {
+      "id": "cd4",
+      "name": "Cd Product 4",
+      "price": 70,
+      "image": "../Images/cd4.jpg"
+    },
+    {
+      "id": "cd5",
+      "name": "Cd Product 5",
+      "price": 75,
+      "image": "../Images/cd5.jpg"
+    },
+    {
+      "id": "cd6",
+      "name": "Cd Product 6",
+      "price": 80,
+      "image": "../Images/cd6.jpg"
+    },
+    {
+      "id": "cd7",
+      "name": "Cd Product 7",
+      "price": 85,
+      "image": "../Images/cd7.jpg"
+    },
+    {
+      "id": "cd8",
+      "name": "Cd Product 8",
+      "price": 90,
+      "image": "../Images/cd8.jpg"
+    },
+    {
+      "id": "cd9",
+      "name": "Cd Product 9",
+      "price": 95,
+      "image": "../Images/cd9.jpg"
+    },
+    {
+      "id": "cd10",
+      "name": "Cd Product 10",
+      "price": 100,
+      "image": "../Images/cd10.jpg"
+    }
+  ],
+  "health-products": [
+    {
+      "id": "health-products1",
+      "name": "Health Products Product 1",
+      "price": 55,
+      "image": "../Images/health-products1.jpg"
+    },
+    {
+      "id": "health-products2",
+      "name": "Health Products Product 2",
+      "price": 60,
+      "image": "../Images/health-products2.jpg"
+    },
+    {
+      "id": "health-products3",
+      "name": "Health Products Product 3",
+      "price": 65,
+      "image": "../Images/health-products3.jpg"
+    },
+    {
+      "id": "health-products4",
+      "name": "Health Products Product 4",
+      "price": 70,
+      "image": "../Images/health-products4.jpg"
+    },
+    {
+      "id": "health-products5",
+      "name": "Health Products Product 5",
+      "price": 75,
+      "image": "../Images/health-products5.jpg"
+    },
+    {
+      "id": "health-products6",
+      "name": "Health Products Product 6",
+      "price": 80,
+      "image": "../Images/health-products6.jpg"
+    },
+    {
+      "id": "health-products7",
+      "name": "Health Products Product 7",
+      "price": 85,
+      "image": "../Images/health-products7.jpg"
+    },
+    {
+      "id": "health-products8",
+      "name": "Health Products Product 8",
+      "price": 90,
+      "image": "../Images/health-products8.jpg"
+    },
+    {
+      "id": "health-products9",
+      "name": "Health Products Product 9",
+      "price": 95,
+      "image": "../Images/health-products9.jpg"
+    },
+    {
+      "id": "health-products10",
+      "name": "Health Products Product 10",
+      "price": 100,
+      "image": "../Images/health-products10.jpg"
+    }
+  ],
+  "notebooks": [
+    {
+      "id": "notebooks1",
+      "name": "Notebooks Product 1",
+      "price": 55,
+      "image": "../Images/notebooks1.jpg"
+    },
+    {
+      "id": "notebooks2",
+      "name": "Notebooks Product 2",
+      "price": 60,
+      "image": "../Images/notebooks2.jpg"
+    },
+    {
+      "id": "notebooks3",
+      "name": "Notebooks Product 3",
+      "price": 65,
+      "image": "../Images/notebooks3.jpg"
+    },
+    {
+      "id": "notebooks4",
+      "name": "Notebooks Product 4",
+      "price": 70,
+      "image": "../Images/notebooks4.jpg"
+    },
+    {
+      "id": "notebooks5",
+      "name": "Notebooks Product 5",
+      "price": 75,
+      "image": "../Images/notebooks5.jpg"
+    },
+    {
+      "id": "notebooks6",
+      "name": "Notebooks Product 6",
+      "price": 80,
+      "image": "../Images/notebooks6.jpg"
+    },
+    {
+      "id": "notebooks7",
+      "name": "Notebooks Product 7",
+      "price": 85,
+      "image": "../Images/notebooks7.jpg"
+    },
+    {
+      "id": "notebooks8",
+      "name": "Notebooks Product 8",
+      "price": 90,
+      "image": "../Images/notebooks8.jpg"
+    },
+    {
+      "id": "notebooks9",
+      "name": "Notebooks Product 9",
+      "price": 95,
+      "image": "../Images/notebooks9.jpg"
+    },
+    {
+      "id": "notebooks10",
+      "name": "Notebooks Product 10",
+      "price": 100,
+      "image": "../Images/notebooks10.jpg"
+    }
+  ],
+  "stickers": [
+    {
+      "id": "stickers1",
+      "name": "Stickers Product 1",
+      "price": 55,
+      "image": "../Images/stickers1.jpg"
+    },
+    {
+      "id": "stickers2",
+      "name": "Stickers Product 2",
+      "price": 60,
+      "image": "../Images/stickers2.jpg"
+    },
+    {
+      "id": "stickers3",
+      "name": "Stickers Product 3",
+      "price": 65,
+      "image": "../Images/stickers3.jpg"
+    },
+    {
+      "id": "stickers4",
+      "name": "Stickers Product 4",
+      "price": 70,
+      "image": "../Images/stickers4.jpg"
+    },
+    {
+      "id": "stickers5",
+      "name": "Stickers Product 5",
+      "price": 75,
+      "image": "../Images/stickers5.jpg"
+    },
+    {
+      "id": "stickers6",
+      "name": "Stickers Product 6",
+      "price": 80,
+      "image": "../Images/stickers6.jpg"
+    },
+    {
+      "id": "stickers7",
+      "name": "Stickers Product 7",
+      "price": 85,
+      "image": "../Images/stickers7.jpg"
+    },
+    {
+      "id": "stickers8",
+      "name": "Stickers Product 8",
+      "price": 90,
+      "image": "../Images/stickers8.jpg"
+    },
+    {
+      "id": "stickers9",
+      "name": "Stickers Product 9",
+      "price": 95,
+      "image": "../Images/stickers9.jpg"
+    },
+    {
+      "id": "stickers10",
+      "name": "Stickers Product 10",
+      "price": 100,
+      "image": "../Images/stickers10.jpg"
+    }
+  ],
+  "clothings": [
+    {
+      "id": "clothing1",
+      "name": "Clothing Product 1",
+      "price": 55,
+      "image": "../Images/clothing1.jpg"
+    },
+    {
+      "id": "clothing2",
+      "name": "Clothing Product 2",
+      "price": 60,
+      "image": "../Images/clothing2.jpg"
+    },
+    {
+      "id": "clothing3",
+      "name": "Clothing Product 3",
+      "price": 65,
+      "image": "../Images/clothing3.jpg"
+    },
+    {
+      "id": "clothing4",
+      "name": "Clothing Product 4",
+      "price": 70,
+      "image": "../Images/clothing4.jpg"
+    },
+    {
+      "id": "clothing5",
+      "name": "Clothing Product 5",
+      "price": 75,
+      "image": "../Images/clothing5.jpg"
+    },
+    {
+      "id": "clothing6",
+      "name": "Clothing Product 6",
+      "price": 80,
+      "image": "../Images/clothing6.jpg"
+    },
+    {
+      "id": "clothing7",
+      "name": "Clothing Product 7",
+      "price": 85,
+      "image": "../Images/clothing7.jpg"
+    },
+    {
+      "id": "clothing8",
+      "name": "Clothing Product 8",
+      "price": 90,
+      "image": "../Images/clothing8.jpg"
+    },
+    {
+      "id": "clothing9",
+      "name": "Clothing Product 9",
+      "price": 95,
+      "image": "../Images/clothing9.jpg"
+    },
+    {
+      "id": "clothing10",
+      "name": "Clothing Product 10",
+      "price": 100,
+      "image": "../Images/clothing10.jpg"
+    }
+  ],
+  "posters": [
+    {
+      "id": "posters1",
+      "name": "Posters Product 1",
+      "price": 55,
+      "image": "../Images/posters1.jpg"
+    },
+    {
+      "id": "posters2",
+      "name": "Posters Product 2",
+      "price": 60,
+      "image": "../Images/posters2.jpg"
+    },
+    {
+      "id": "posters3",
+      "name": "Posters Product 3",
+      "price": 65,
+      "image": "../Images/posters3.jpg"
+    },
+    {
+      "id": "posters4",
+      "name": "Posters Product 4",
+      "price": 70,
+      "image": "../Images/posters4.jpg"
+    },
+    {
+      "id": "posters5",
+      "name": "Posters Product 5",
+      "price": 75,
+      "image": "../Images/posters5.jpg"
+    },
+    {
+      "id": "posters6",
+      "name": "Posters Product 6",
+      "price": 80,
+      "image": "../Images/posters6.jpg"
+    },
+    {
+      "id": "posters7",
+      "name": "Posters Product 7",
+      "price": 85,
+      "image": "../Images/posters7.jpg"
+    },
+    {
+      "id": "posters8",
+      "name": "Posters Product 8",
+      "price": 90,
+      "image": "../Images/posters8.jpg"
+    },
+    {
+      "id": "posters9",
+      "name": "Posters Product 9",
+      "price": 95,
+      "image": "../Images/posters9.jpg"
+    },
+    {
+      "id": "posters10",
+      "name": "Posters Product 10",
+      "price": 100,
+      "image": "../Images/posters10.jpg"
+    }
+  ],
+  "puja-accessories": [
+    {
+      "id": "puja-items1",
+      "name": "Puja Items Product 1",
+      "price": 55,
+      "image": "../Images/puja-items1.jpg"
+    },
+    {
+      "id": "puja-items2",
+      "name": "Puja Items Product 2",
+      "price": 60,
+      "image": "../Images/puja-items2.jpg"
+    },
+    {
+      "id": "puja-items3",
+      "name": "Puja Items Product 3",
+      "price": 65,
+      "image": "../Images/puja-items3.jpg"
+    },
+    {
+      "id": "puja-items4",
+      "name": "Puja Items Product 4",
+      "price": 70,
+      "image": "../Images/puja-items4.jpg"
+    },
+    {
+      "id": "puja-items5",
+      "name": "Puja Items Product 5",
+      "price": 75,
+      "image": "../Images/puja-items5.jpg"
+    },
+    {
+      "id": "puja-items6",
+      "name": "Puja Items Product 6",
+      "price": 80,
+      "image": "../Images/puja-items6.jpg"
+    },
+    {
+      "id": "puja-items7",
+      "name": "Puja Items Product 7",
+      "price": 85,
+      "image": "../Images/puja-items7.jpg"
+    },
+    {
+      "id": "puja-items8",
+      "name": "Puja Items Product 8",
+      "price": 90,
+      "image": "../Images/puja-items8.jpg"
+    },
+    {
+      "id": "puja-items9",
+      "name": "Puja Items Product 9",
+      "price": 95,
+      "image": "../Images/puja-items9.jpg"
+    },
+    {
+      "id": "puja-items10",
+      "name": "Puja Items Product 10",
+      "price": 100,
+      "image": "../Images/puja-items10.jpg"
+    }
+  ],
+  "handloom": [
+    {
+      "id": "handloom1",
+      "name": "Handloom Product 1",
+      "price": 55,
+      "image": "../Images/handloom1.jpg"
+    },
+    {
+      "id": "handloom2",
+      "name": "Handloom Product 2",
+      "price": 60,
+      "image": "../Images/handloom2.jpg"
+    },
+    {
+      "id": "handloom3",
+      "name": "Handloom Product 3",
+      "price": 65,
+      "image": "../Images/handloom3.jpg"
+    },
+    {
+      "id": "handloom4",
+      "name": "Handloom Product 4",
+      "price": 70,
+      "image": "../Images/handloom4.jpg"
+    },
+    {
+      "id": "handloom5",
+      "name": "Handloom Product 5",
+      "price": 75,
+      "image": "../Images/handloom5.jpg"
+    },
+    {
+      "id": "handloom6",
+      "name": "Handloom Product 6",
+      "price": 80,
+      "image": "../Images/handloom6.jpg"
+    },
+    {
+      "id": "handloom7",
+      "name": "Handloom Product 7",
+      "price": 85,
+      "image": "../Images/handloom7.jpg"
+    },
+    {
+      "id": "handloom8",
+      "name": "Handloom Product 8",
+      "price": 90,
+      "image": "../Images/handloom8.jpg"
+    },
+    {
+      "id": "handloom9",
+      "name": "Handloom Product 9",
+      "price": 95,
+      "image": "../Images/handloom9.jpg"
+    },
+    {
+      "id": "handloom10",
+      "name": "Handloom Product 10",
+      "price": 100,
+      "image": "../Images/handloom10.jpg"
+    }
+  ],
+  "electronics": [
+    {
+      "id": "electronics1",
+      "name": "Electronics Product 1",
+      "price": 55,
+      "image": "../Images/electronics1.jpg"
+    },
+    {
+      "id": "electronics2",
+      "name": "Electronics Product 2",
+      "price": 60,
+      "image": "../Images/electronics2.jpg"
+    },
+    {
+      "id": "electronics3",
+      "name": "Electronics Product 3",
+      "price": 65,
+      "image": "../Images/electronics3.jpg"
+    },
+    {
+      "id": "electronics4",
+      "name": "Electronics Product 4",
+      "price": 70,
+      "image": "../Images/electronics4.jpg"
+    },
+    {
+      "id": "electronics5",
+      "name": "Electronics Product 5",
+      "price": 75,
+      "image": "../Images/electronics5.jpg"
+    },
+    {
+      "id": "electronics6",
+      "name": "Electronics Product 6",
+      "price": 80,
+      "image": "../Images/electronics6.jpg"
+    },
+    {
+      "id": "electronics7",
+      "name": "Electronics Product 7",
+      "price": 85,
+      "image": "../Images/electronics7.jpg"
+    },
+    {
+      "id": "electronics8",
+      "name": "Electronics Product 8",
+      "price": 90,
+      "image": "../Images/electronics8.jpg"
+    },
+    {
+      "id": "electronics9",
+      "name": "Electronics Product 9",
+      "price": 95,
+      "image": "../Images/electronics9.jpg"
+    },
+    {
+      "id": "electronics10",
+      "name": "Electronics Product 10",
+      "price": 100,
+      "image": "../Images/electronics10.jpg"
+    }
+  ],
+  "daily-use": [
+    {
+      "id": "daily-use1",
+      "name": "Daily Use Product 1",
+      "price": 55,
+      "image": "../Images/daily-use1.jpg"
+    },
+    {
+      "id": "daily-use2",
+      "name": "Daily Use Product 2",
+      "price": 60,
+      "image": "../Images/daily-use2.jpg"
+    },
+    {
+      "id": "daily-use3",
+      "name": "Daily Use Product 3",
+      "price": 65,
+      "image": "../Images/daily-use3.jpg"
+    },
+    {
+      "id": "daily-use4",
+      "name": "Daily Use Product 4",
+      "price": 70,
+      "image": "../Images/daily-use4.jpg"
+    },
+    {
+      "id": "daily-use5",
+      "name": "Daily Use Product 5",
+      "price": 75,
+      "image": "../Images/daily-use5.jpg"
+    },
+    {
+      "id": "daily-use6",
+      "name": "Daily Use Product 6",
+      "price": 80,
+      "image": "../Images/daily-use6.jpg"
+    },
+    {
+      "id": "daily-use7",
+      "name": "Daily Use Product 7",
+      "price": 85,
+      "image": "../Images/daily-use7.jpg"
+    },
+    {
+      "id": "daily-use8",
+      "name": "Daily Use Product 8",
+      "price": 90,
+      "image": "../Images/daily-use8.jpg"
+    },
+    {
+      "id": "daily-use9",
+      "name": "Daily Use Product 9",
+      "price": 95,
+      "image": "../Images/daily-use9.jpg"
+    },
+    {
+      "id": "daily-use10",
+      "name": "Daily Use Product 10",
+      "price": 100,
+      "image": "../Images/daily-use10.jpg"
+    }
+  ],
+  "vangmay": [
+    {
+      "id": "vangmay1",
+      "name": "Vangmay Product 1",
+      "price": 55,
+      "image": "../Images/vangmay1.jpg"
+    },
+    {
+      "id": "vangmay2",
+      "name": "Vangmay Product 2",
+      "price": 60,
+      "image": "../Images/vangmay2.jpg"
+    },
+    {
+      "id": "vangmay3",
+      "name": "Vangmay Product 3",
+      "price": 65,
+      "image": "../Images/vangmay3.jpg"
+    },
+    {
+      "id": "vangmay4",
+      "name": "Vangmay Product 4",
+      "price": 70,
+      "image": "../Images/vangmay4.jpg"
+    },
+    {
+      "id": "vangmay5",
+      "name": "Vangmay Product 5",
+      "price": 75,
+      "image": "../Images/vangmay5.jpg"
+    },
+    {
+      "id": "vangmay6",
+      "name": "Vangmay Product 6",
+      "price": 80,
+      "image": "../Images/vangmay6.jpg"
+    },
+    {
+      "id": "vangmay7",
+      "name": "Vangmay Product 7",
+      "price": 85,
+      "image": "../Images/vangmay7.jpg"
+    },
+    {
+      "id": "vangmay8",
+      "name": "Vangmay Product 8",
+      "price": 90,
+      "image": "../Images/vangmay8.jpg"
+    },
+    {
+      "id": "vangmay9",
+      "name": "Vangmay Product 9",
+      "price": 95,
+      "image": "../Images/vangmay9.jpg"
+    },
+    {
+      "id": "vangmay10",
+      "name": "Vangmay Product 10",
+      "price": 100,
+      "image": "../Images/vangmay10.jpg"
+    }
+  ],
+  "magzines": [
+    {
+      "id": "magazines1",
+      "name": "Magazines Product 1",
+      "price": 55,
+      "image": "../Images/magazines1.jpg"
+    },
+    {
+      "id": "magazines2",
+      "name": "Magazines Product 2",
+      "price": 60,
+      "image": "../Images/magazines2.jpg"
+    },
+    {
+      "id": "magazines3",
+      "name": "Magazines Product 3",
+      "price": 65,
+      "image": "../Images/magazines3.jpg"
+    },
+    {
+      "id": "magazines4",
+      "name": "Magazines Product 4",
+      "price": 70,
+      "image": "../Images/magazines4.jpg"
+    },
+    {
+      "id": "magazines5",
+      "name": "Magazines Product 5",
+      "price": 75,
+      "image": "../Images/magazines5.jpg"
+    },
+    {
+      "id": "magazines6",
+      "name": "Magazines Product 6",
+      "price": 80,
+      "image": "../Images/magazines6.jpg"
+    },
+    {
+      "id": "magazines7",
+      "name": "Magazines Product 7",
+      "price": 85,
+      "image": "../Images/magazines7.jpg"
+    },
+    {
+      "id": "magazines8",
+      "name": "Magazines Product 8",
+      "price": 90,
+      "image": "../Images/magazines8.jpg"
+    },
+    {
+      "id": "magazines9",
+      "name": "Magazines Product 9",
+      "price": 95,
+      "image": "../Images/magazines9.jpg"
+    },
+    {
+      "id": "magazines10",
+      "name": "Magazines Product 10",
+      "price": 100,
+      "image": "../Images/magazines10.jpg"
+    }
+  ],
+  "decoration": [
+    {
+      "id": "decoration1",
+      "name": "Decoration Product 1",
+      "price": 55,
+      "image": "../Images/decoration1.jpg"
+    },
+    {
+      "id": "decoration2",
+      "name": "Decoration Product 2",
+      "price": 60,
+      "image": "../Images/decoration2.jpg"
+    },
+    {
+      "id": "decoration3",
+      "name": "Decoration Product 3",
+      "price": 65,
+      "image": "../Images/decoration3.jpg"
+    },
+    {
+      "id": "decoration4",
+      "name": "Decoration Product 4",
+      "price": 70,
+      "image": "../Images/decoration4.jpg"
+    },
+    {
+      "id": "decoration5",
+      "name": "Decoration Product 5",
+      "price": 75,
+      "image": "../Images/decoration5.jpg"
+    },
+    {
+      "id": "decoration6",
+      "name": "Decoration Product 6",
+      "price": 80,
+      "image": "../Images/decoration6.jpg"
+    },
+    {
+      "id": "decoration7",
+      "name": "Decoration Product 7",
+      "price": 85,
+      "image": "../Images/decoration7.jpg"
+    },
+    {
+      "id": "decoration8",
+      "name": "Decoration Product 8",
+      "price": 90,
+      "image": "../Images/decoration8.jpg"
+    },
+    {
+      "id": "decoration9",
+      "name": "Decoration Product 9",
+      "price": 95,
+      "image": "../Images/decoration9.jpg"
+    },
+    {
+      "id": "decoration10",
+      "name": "Decoration Product 10",
+      "price": 100,
+      "image": "../Images/decoration10.jpg"
+    }
+  ]
+}
