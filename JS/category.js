@@ -3,7 +3,7 @@ const selectedCategory = urlParams.get("category") || "books";
 
 document.getElementById("category-title").textContent = selectedCategory.replace("-", " ");
 
-fetch('../data/product.json') // adjust path if needed
+fetch('../data/product.json') // Adjust path if needed
   .then(res => res.json())
   .then(data => {
     const products = data[selectedCategory];
@@ -42,22 +42,25 @@ fetch('../data/product.json') // adjust path if needed
       container.appendChild(productWrapper);
     });
 
-    // Event listeners for add to cart and wishlist
+    // ✅ Add a single event listener to the container (Event Delegation)
     container.addEventListener("click", (e) => {
-      if (e.target.classList.contains("wishlist-btn")) {
-        e.preventDefault(); // Prevent <a> from being triggered
-        const id = e.target.dataset.id;
-        const category = e.target.dataset.category;
-        console.log("Add to wishlist:", id, category);
-        // Implement your logic here
-      }
+      if (e.target.classList.contains("wishlist-btn") || e.target.classList.contains("cart-btn")) {
+        e.preventDefault(); // Stop <a> navigation
 
-      if (e.target.classList.contains("cart-btn")) {
-        e.preventDefault(); // Prevent <a> from being triggered
         const id = e.target.dataset.id;
         const category = e.target.dataset.category;
-        console.log("Add to cart:", id, category);
-        // Implement your logic here
+
+        // Find product based on ID and category
+        const product = data[category].find(p => p.id === id);
+        if (!product) return alert("Product not found");
+
+        if (e.target.classList.contains("wishlist-btn")) {
+          addToWishlist(product); // Defined globally in wishlistCart.js
+        }
+
+        if (e.target.classList.contains("cart-btn")) {
+          addToCart(product); // Defined globally in wishlistCart.js
+        }
       }
     });
   })
