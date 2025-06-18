@@ -8,6 +8,16 @@ document.querySelector(".User-icon").addEventListener('click', () => {
     }
 });
 
+document.querySelector(".menu-icon").addEventListener('click', ()=> {
+  const menuBox = document.querySelector(".menu")
+
+    if (menuBox.style.display === "none") {
+        menuBox.style.display = "flex";
+    } else {
+        menuBox.style.display = "none"
+    }
+})
+
 
 document.querySelector(".product-btn").addEventListener('click', () => {
     const userBox = document.querySelector(".products-box");
@@ -30,23 +40,6 @@ document.querySelector(".otherlink-btn").addEventListener('click', () => {
     }
 });
 
-fetch('../data/categories.json')
-  .then(res => res.json())
-  .then(categories => {
-    const container = document.getElementById('categoryGrid');
-    categories.slice(0, 6).forEach(cat => {
-      const div = document.createElement('div');
-      div.className = 'category-item';
-      div.innerHTML = `
-        <a href="../html/category.html?category=${cat.slug}">
-          <img src="${cat.image}" alt="${cat.name}">
-          <p>${cat.name}</p>
-        </a>
-      `;
-      container.appendChild(div);
-    });
-  })
-  .catch(err => console.error("Failed to load categories:", err));
 
 fetch('../data/categories.json') // update with correct path
   .then(res => res.json())

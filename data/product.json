@@ -1,870 +1,2690 @@
 {
-  "books": [
-    {
-      "id": "books1",
-      "name": "Gayatari Pariwaar..",
-      "price": 55,
-      "image": "../Images/book1.jpg"
-    },
-    {
-      "id": "books2",
-      "name": "Baal Sanskaar Shala",
-      "price": 60,
-      "image": "../Images/book2.jpg"
-    },
-    {
-      "id": "books3",
-      "name": "The Pioneers of..",
-      "price": 65,
-      "image": "../Images/book3.jpg"
-    },
-    {
-      "id": "books4",
-      "name": "Gayatari Suryapsthan",
-      "price": 70,
-      "image": "../Images/book4.jpg"
-    },
-    {
-      "id": "books5",
-      "name": "Eternity of Sound..",
-      "price": 75,
-      "image": "../Images/book5.jpg"
-    },
-    {
-      "id": "books6",
-      "name": "Let us Know Yugrishi",
-      "price": 80,
-      "image": "../Images/book6.jpg"
-    },
-    {
-      "id": "books7",
-      "name": "Saphal Jivan ki Disha..",
-      "price": 85,
-      "image": "../Images/book7.jpg"
-    },
-    {
-      "id": "books8",
-      "name": "Gayatari ka mantrathra",
-      "price": 90,
-      "image": "../Images/book8.jpg"
-    },
-    {
-      "id": "books9",
-      "name": "Gayatari ki Yugtirth..",
-      "price": 95,
-      "image": "../Images/book9.jpg"
-    },
-    {
-      "id": "books10",
-      "name": "Amaar Vaani",
-      "price": 100,
-      "image": "../Images/book10.jpg"
-    }
-  ],
   "cd": [
     {
       "id": "cd1",
       "name": "Cd Product 1",
-      "price": 55,
-      "image": "../Images/cd1.jpg"
+      "price": 428,
+      "category": "cd",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Cd Product 1.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/cd1.jpg",
+        "../Images/cd1_2.jpg",
+        "../Images/cd1_3.jpg"
+      ]
     },
     {
       "id": "cd2",
       "name": "Cd Product 2",
-      "price": 60,
-      "image": "../Images/cd2.jpg"
+      "price": 271,
+      "category": "cd",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Cd Product 2.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/cd2.jpg",
+        "../Images/cd2_2.jpg",
+        "../Images/cd2_3.jpg"
+      ]
     },
     {
       "id": "cd3",
       "name": "Cd Product 3",
-      "price": 65,
-      "image": "../Images/cd3.jpg"
+      "price": 352,
+      "category": "cd",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Cd Product 3.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/cd3.jpg",
+        "../Images/cd3_2.jpg",
+        "../Images/cd3_3.jpg"
+      ]
     },
     {
       "id": "cd4",
       "name": "Cd Product 4",
-      "price": 70,
-      "image": "../Images/cd4.jpg"
+      "price": 383,
+      "category": "cd",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Cd Product 4.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/cd4.jpg",
+        "../Images/cd4_2.jpg",
+        "../Images/cd4_3.jpg"
+      ]
     },
     {
       "id": "cd5",
       "name": "Cd Product 5",
-      "price": 75,
-      "image": "../Images/cd5.jpg"
+      "price": 153,
+      "category": "cd",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Cd Product 5.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/cd5.jpg",
+        "../Images/cd5_2.jpg",
+        "../Images/cd5_3.jpg"
+      ]
     },
     {
       "id": "cd6",
       "name": "Cd Product 6",
-      "price": 80,
-      "image": "../Images/cd6.jpg"
+      "price": 396,
+      "category": "cd",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Cd Product 6.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/cd6.jpg",
+        "../Images/cd6_2.jpg",
+        "../Images/cd6_3.jpg"
+      ]
     },
     {
       "id": "cd7",
       "name": "Cd Product 7",
-      "price": 85,
-      "image": "../Images/cd7.jpg"
+      "price": 73,
+      "category": "cd",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Cd Product 7.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/cd7.jpg",
+        "../Images/cd7_2.jpg",
+        "../Images/cd7_3.jpg"
+      ]
     },
     {
       "id": "cd8",
       "name": "Cd Product 8",
-      "price": 90,
-      "image": "../Images/cd8.jpg"
+      "price": 416,
+      "category": "cd",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Cd Product 8.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/cd8.jpg",
+        "../Images/cd8_2.jpg",
+        "../Images/cd8_3.jpg"
+      ]
     },
     {
       "id": "cd9",
       "name": "Cd Product 9",
-      "price": 95,
-      "image": "../Images/cd9.jpg"
+      "price": 316,
+      "category": "cd",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Cd Product 9.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/cd9.jpg",
+        "../Images/cd9_2.jpg",
+        "../Images/cd9_3.jpg"
+      ]
     },
     {
       "id": "cd10",
       "name": "Cd Product 10",
-      "price": 100,
-      "image": "../Images/cd10.jpg"
+      "price": 159,
+      "category": "cd",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Cd Product 10.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/cd10.jpg",
+        "../Images/cd10_2.jpg",
+        "../Images/cd10_3.jpg"
+      ]
     }
   ],
   "health-products": [
     {
       "id": "health-products1",
-      "name": "Health Products Product 1",
-      "price": 55,
-      "image": "../Images/health-products1.jpg"
+      "name": "Health-Products Product 1",
+      "price": 200,
+      "category": "health-products",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Health-Products Product 1.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/health-products1.jpg",
+        "../Images/health-products1_2.jpg",
+        "../Images/health-products1_3.jpg"
+      ]
     },
     {
       "id": "health-products2",
-      "name": "Health Products Product 2",
-      "price": 60,
-      "image": "../Images/health-products2.jpg"
+      "name": "Health-Products Product 2",
+      "price": 369,
+      "category": "health-products",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Health-Products Product 2.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/health-products2.jpg",
+        "../Images/health-products2_2.jpg",
+        "../Images/health-products2_3.jpg"
+      ]
     },
     {
       "id": "health-products3",
-      "name": "Health Products Product 3",
-      "price": 65,
-      "image": "../Images/health-products3.jpg"
+      "name": "Health-Products Product 3",
+      "price": 357,
+      "category": "health-products",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Health-Products Product 3.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/health-products3.jpg",
+        "../Images/health-products3_2.jpg",
+        "../Images/health-products3_3.jpg"
+      ]
     },
     {
       "id": "health-products4",
-      "name": "Health Products Product 4",
-      "price": 70,
-      "image": "../Images/health-products4.jpg"
+      "name": "Health-Products Product 4",
+      "price": 51,
+      "category": "health-products",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Health-Products Product 4.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/health-products4.jpg",
+        "../Images/health-products4_2.jpg",
+        "../Images/health-products4_3.jpg"
+      ]
     },
     {
       "id": "health-products5",
-      "name": "Health Products Product 5",
-      "price": 75,
-      "image": "../Images/health-products5.jpg"
+      "name": "Health-Products Product 5",
+      "price": 66,
+      "category": "health-products",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Health-Products Product 5.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/health-products5.jpg",
+        "../Images/health-products5_2.jpg",
+        "../Images/health-products5_3.jpg"
+      ]
     },
     {
       "id": "health-products6",
-      "name": "Health Products Product 6",
-      "price": 80,
-      "image": "../Images/health-products6.jpg"
+      "name": "Health-Products Product 6",
+      "price": 411,
+      "category": "health-products",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Health-Products Product 6.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/health-products6.jpg",
+        "../Images/health-products6_2.jpg",
+        "../Images/health-products6_3.jpg"
+      ]
     },
     {
       "id": "health-products7",
-      "name": "Health Products Product 7",
-      "price": 85,
-      "image": "../Images/health-products7.jpg"
+      "name": "Health-Products Product 7",
+      "price": 102,
+      "category": "health-products",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Health-Products Product 7.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/health-products7.jpg",
+        "../Images/health-products7_2.jpg",
+        "../Images/health-products7_3.jpg"
+      ]
     },
     {
       "id": "health-products8",
-      "name": "Health Products Product 8",
-      "price": 90,
-      "image": "../Images/health-products8.jpg"
+      "name": "Health-Products Product 8",
+      "price": 466,
+      "category": "health-products",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Health-Products Product 8.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/health-products8.jpg",
+        "../Images/health-products8_2.jpg",
+        "../Images/health-products8_3.jpg"
+      ]
     },
     {
       "id": "health-products9",
-      "name": "Health Products Product 9",
-      "price": 95,
-      "image": "../Images/health-products9.jpg"
+      "name": "Health-Products Product 9",
+      "price": 254,
+      "category": "health-products",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Health-Products Product 9.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/health-products9.jpg",
+        "../Images/health-products9_2.jpg",
+        "../Images/health-products9_3.jpg"
+      ]
     },
     {
       "id": "health-products10",
-      "name": "Health Products Product 10",
-      "price": 100,
-      "image": "../Images/health-products10.jpg"
+      "name": "Health-Products Product 10",
+      "price": 199,
+      "category": "health-products",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Health-Products Product 10.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/health-products10.jpg",
+        "../Images/health-products10_2.jpg",
+        "../Images/health-products10_3.jpg"
+      ]
     }
   ],
-  "notebooks": [
-    {
-      "id": "notebooks1",
-      "name": "Notebooks Product 1",
-      "price": 55,
-      "image": "../Images/notebooks1.jpg"
-    },
-    {
-      "id": "notebooks2",
-      "name": "Notebooks Product 2",
-      "price": 60,
-      "image": "../Images/notebooks2.jpg"
-    },
-    {
-      "id": "notebooks3",
-      "name": "Notebooks Product 3",
-      "price": 65,
-      "image": "../Images/notebooks3.jpg"
-    },
-    {
-      "id": "notebooks4",
-      "name": "Notebooks Product 4",
-      "price": 70,
-      "image": "../Images/notebooks4.jpg"
-    },
-    {
-      "id": "notebooks5",
-      "name": "Notebooks Product 5",
-      "price": 75,
-      "image": "../Images/notebooks5.jpg"
-    },
-    {
-      "id": "notebooks6",
-      "name": "Notebooks Product 6",
-      "price": 80,
-      "image": "../Images/notebooks6.jpg"
-    },
-    {
-      "id": "notebooks7",
-      "name": "Notebooks Product 7",
-      "price": 85,
-      "image": "../Images/notebooks7.jpg"
-    },
-    {
-      "id": "notebooks8",
-      "name": "Notebooks Product 8",
-      "price": 90,
-      "image": "../Images/notebooks8.jpg"
-    },
-    {
-      "id": "notebooks9",
-      "name": "Notebooks Product 9",
-      "price": 95,
-      "image": "../Images/notebooks9.jpg"
-    },
-    {
-      "id": "notebooks10",
-      "name": "Notebooks Product 10",
-      "price": 100,
-      "image": "../Images/notebooks10.jpg"
-    }
-  ],
-  "stickers": [
-    {
-      "id": "stickers1",
-      "name": "Stickers Product 1",
-      "price": 55,
-      "image": "../Images/stickers1.jpg"
-    },
-    {
-      "id": "stickers2",
-      "name": "Stickers Product 2",
-      "price": 60,
-      "image": "../Images/stickers2.jpg"
-    },
-    {
-      "id": "stickers3",
-      "name": "Stickers Product 3",
-      "price": 65,
-      "image": "../Images/stickers3.jpg"
-    },
-    {
-      "id": "stickers4",
-      "name": "Stickers Product 4",
-      "price": 70,
-      "image": "../Images/stickers4.jpg"
-    },
-    {
-      "id": "stickers5",
-      "name": "Stickers Product 5",
-      "price": 75,
-      "image": "../Images/stickers5.jpg"
-    },
-    {
-      "id": "stickers6",
-      "name": "Stickers Product 6",
-      "price": 80,
-      "image": "../Images/stickers6.jpg"
-    },
-    {
-      "id": "stickers7",
-      "name": "Stickers Product 7",
-      "price": 85,
-      "image": "../Images/stickers7.jpg"
-    },
-    {
-      "id": "stickers8",
-      "name": "Stickers Product 8",
-      "price": 90,
-      "image": "../Images/stickers8.jpg"
-    },
-    {
-      "id": "stickers9",
-      "name": "Stickers Product 9",
-      "price": 95,
-      "image": "../Images/stickers9.jpg"
-    },
-    {
-      "id": "stickers10",
-      "name": "Stickers Product 10",
-      "price": 100,
-      "image": "../Images/stickers10.jpg"
-    }
-  ],
-  "clothings": [
-    {
-      "id": "clothing1",
-      "name": "Clothing Product 1",
-      "price": 55,
-      "image": "../Images/clothing1.jpg"
-    },
-    {
-      "id": "clothing2",
-      "name": "Clothing Product 2",
-      "price": 60,
-      "image": "../Images/clothing2.jpg"
-    },
-    {
-      "id": "clothing3",
-      "name": "Clothing Product 3",
-      "price": 65,
-      "image": "../Images/clothing3.jpg"
-    },
-    {
-      "id": "clothing4",
-      "name": "Clothing Product 4",
-      "price": 70,
-      "image": "../Images/clothing4.jpg"
-    },
-    {
-      "id": "clothing5",
-      "name": "Clothing Product 5",
-      "price": 75,
-      "image": "../Images/clothing5.jpg"
-    },
-    {
-      "id": "clothing6",
-      "name": "Clothing Product 6",
-      "price": 80,
-      "image": "../Images/clothing6.jpg"
-    },
-    {
-      "id": "clothing7",
-      "name": "Clothing Product 7",
-      "price": 85,
-      "image": "../Images/clothing7.jpg"
-    },
-    {
-      "id": "clothing8",
-      "name": "Clothing Product 8",
-      "price": 90,
-      "image": "../Images/clothing8.jpg"
-    },
-    {
-      "id": "clothing9",
-      "name": "Clothing Product 9",
-      "price": 95,
-      "image": "../Images/clothing9.jpg"
-    },
-    {
-      "id": "clothing10",
-      "name": "Clothing Product 10",
-      "price": 100,
-      "image": "../Images/clothing10.jpg"
-    }
-  ],
-  "posters": [
-    {
-      "id": "posters1",
-      "name": "Posters Product 1",
-      "price": 55,
-      "image": "../Images/posters1.jpg"
-    },
-    {
-      "id": "posters2",
-      "name": "Posters Product 2",
-      "price": 60,
-      "image": "../Images/posters2.jpg"
-    },
-    {
-      "id": "posters3",
-      "name": "Posters Product 3",
-      "price": 65,
-      "image": "../Images/posters3.jpg"
-    },
-    {
-      "id": "posters4",
-      "name": "Posters Product 4",
-      "price": 70,
-      "image": "../Images/posters4.jpg"
-    },
-    {
-      "id": "posters5",
-      "name": "Posters Product 5",
-      "price": 75,
-      "image": "../Images/posters5.jpg"
-    },
-    {
-      "id": "posters6",
-      "name": "Posters Product 6",
-      "price": 80,
-      "image": "../Images/posters6.jpg"
-    },
-    {
-      "id": "posters7",
-      "name": "Posters Product 7",
-      "price": 85,
-      "image": "../Images/posters7.jpg"
-    },
-    {
-      "id": "posters8",
-      "name": "Posters Product 8",
-      "price": 90,
-      "image": "../Images/posters8.jpg"
-    },
-    {
-      "id": "posters9",
-      "name": "Posters Product 9",
-      "price": 95,
-      "image": "../Images/posters9.jpg"
-    },
-    {
-      "id": "posters10",
-      "name": "Posters Product 10",
-      "price": 100,
-      "image": "../Images/posters10.jpg"
-    }
-  ],
-  "puja-accessories": [
-    {
-      "id": "puja-items1",
-      "name": "Puja Items Product 1",
-      "price": 55,
-      "image": "../Images/puja-items1.jpg"
-    },
-    {
-      "id": "puja-items2",
-      "name": "Puja Items Product 2",
-      "price": 60,
-      "image": "../Images/puja-items2.jpg"
-    },
-    {
-      "id": "puja-items3",
-      "name": "Puja Items Product 3",
-      "price": 65,
-      "image": "../Images/puja-items3.jpg"
-    },
-    {
-      "id": "puja-items4",
-      "name": "Puja Items Product 4",
-      "price": 70,
-      "image": "../Images/puja-items4.jpg"
-    },
-    {
-      "id": "puja-items5",
-      "name": "Puja Items Product 5",
-      "price": 75,
-      "image": "../Images/puja-items5.jpg"
-    },
-    {
-      "id": "puja-items6",
-      "name": "Puja Items Product 6",
-      "price": 80,
-      "image": "../Images/puja-items6.jpg"
-    },
-    {
-      "id": "puja-items7",
-      "name": "Puja Items Product 7",
-      "price": 85,
-      "image": "../Images/puja-items7.jpg"
-    },
-    {
-      "id": "puja-items8",
-      "name": "Puja Items Product 8",
-      "price": 90,
-      "image": "../Images/puja-items8.jpg"
-    },
-    {
-      "id": "puja-items9",
-      "name": "Puja Items Product 9",
-      "price": 95,
-      "image": "../Images/puja-items9.jpg"
-    },
-    {
-      "id": "puja-items10",
-      "name": "Puja Items Product 10",
-      "price": 100,
-      "image": "../Images/puja-items10.jpg"
-    }
-  ],
-  "handloom": [
-    {
-      "id": "handloom1",
-      "name": "Handloom Product 1",
-      "price": 55,
-      "image": "../Images/handloom1.jpg"
-    },
-    {
-      "id": "handloom2",
-      "name": "Handloom Product 2",
-      "price": 60,
-      "image": "../Images/handloom2.jpg"
-    },
-    {
-      "id": "handloom3",
-      "name": "Handloom Product 3",
-      "price": 65,
-      "image": "../Images/handloom3.jpg"
-    },
-    {
-      "id": "handloom4",
-      "name": "Handloom Product 4",
-      "price": 70,
-      "image": "../Images/handloom4.jpg"
-    },
-    {
-      "id": "handloom5",
-      "name": "Handloom Product 5",
-      "price": 75,
-      "image": "../Images/handloom5.jpg"
-    },
-    {
-      "id": "handloom6",
-      "name": "Handloom Product 6",
-      "price": 80,
-      "image": "../Images/handloom6.jpg"
-    },
-    {
-      "id": "handloom7",
-      "name": "Handloom Product 7",
-      "price": 85,
-      "image": "../Images/handloom7.jpg"
-    },
-    {
-      "id": "handloom8",
-      "name": "Handloom Product 8",
-      "price": 90,
-      "image": "../Images/handloom8.jpg"
-    },
-    {
-      "id": "handloom9",
-      "name": "Handloom Product 9",
-      "price": 95,
-      "image": "../Images/handloom9.jpg"
-    },
-    {
-      "id": "handloom10",
-      "name": "Handloom Product 10",
-      "price": 100,
-      "image": "../Images/handloom10.jpg"
-    }
-  ],
-  "electronics": [
-    {
-      "id": "electronics1",
-      "name": "Electronics Product 1",
-      "price": 55,
-      "image": "../Images/electronics1.jpg"
-    },
-    {
-      "id": "electronics2",
-      "name": "Electronics Product 2",
-      "price": 60,
-      "image": "../Images/electronics2.jpg"
-    },
-    {
-      "id": "electronics3",
-      "name": "Electronics Product 3",
-      "price": 65,
-      "image": "../Images/electronics3.jpg"
-    },
-    {
-      "id": "electronics4",
-      "name": "Electronics Product 4",
-      "price": 70,
-      "image": "../Images/electronics4.jpg"
-    },
-    {
-      "id": "electronics5",
-      "name": "Electronics Product 5",
-      "price": 75,
-      "image": "../Images/electronics5.jpg"
-    },
-    {
-      "id": "electronics6",
-      "name": "Electronics Product 6",
-      "price": 80,
-      "image": "../Images/electronics6.jpg"
-    },
-    {
-      "id": "electronics7",
-      "name": "Electronics Product 7",
-      "price": 85,
-      "image": "../Images/electronics7.jpg"
-    },
-    {
-      "id": "electronics8",
-      "name": "Electronics Product 8",
-      "price": 90,
-      "image": "../Images/electronics8.jpg"
-    },
-    {
-      "id": "electronics9",
-      "name": "Electronics Product 9",
-      "price": 95,
-      "image": "../Images/electronics9.jpg"
-    },
-    {
-      "id": "electronics10",
-      "name": "Electronics Product 10",
-      "price": 100,
-      "image": "../Images/electronics10.jpg"
-    }
-  ],
-  "daily-use": [
-    {
-      "id": "daily-use1",
-      "name": "Daily Use Product 1",
-      "price": 55,
-      "image": "../Images/daily-use1.jpg"
-    },
-    {
-      "id": "daily-use2",
-      "name": "Daily Use Product 2",
-      "price": 60,
-      "image": "../Images/daily-use2.jpg"
-    },
-    {
-      "id": "daily-use3",
-      "name": "Daily Use Product 3",
-      "price": 65,
-      "image": "../Images/daily-use3.jpg"
-    },
-    {
-      "id": "daily-use4",
-      "name": "Daily Use Product 4",
-      "price": 70,
-      "image": "../Images/daily-use4.jpg"
-    },
-    {
-      "id": "daily-use5",
-      "name": "Daily Use Product 5",
-      "price": 75,
-      "image": "../Images/daily-use5.jpg"
-    },
-    {
-      "id": "daily-use6",
-      "name": "Daily Use Product 6",
-      "price": 80,
-      "image": "../Images/daily-use6.jpg"
-    },
-    {
-      "id": "daily-use7",
-      "name": "Daily Use Product 7",
-      "price": 85,
-      "image": "../Images/daily-use7.jpg"
-    },
-    {
-      "id": "daily-use8",
-      "name": "Daily Use Product 8",
-      "price": 90,
-      "image": "../Images/daily-use8.jpg"
-    },
-    {
-      "id": "daily-use9",
-      "name": "Daily Use Product 9",
-      "price": 95,
-      "image": "../Images/daily-use9.jpg"
-    },
-    {
-      "id": "daily-use10",
-      "name": "Daily Use Product 10",
-      "price": 100,
-      "image": "../Images/daily-use10.jpg"
-    }
-  ],
-  "vangmay": [
-    {
-      "id": "vangmay1",
-      "name": "Vangmay Product 1",
-      "price": 55,
-      "image": "../Images/vangmay1.jpg"
-    },
-    {
-      "id": "vangmay2",
-      "name": "Vangmay Product 2",
-      "price": 60,
-      "image": "../Images/vangmay2.jpg"
-    },
-    {
-      "id": "vangmay3",
-      "name": "Vangmay Product 3",
-      "price": 65,
-      "image": "../Images/vangmay3.jpg"
-    },
-    {
-      "id": "vangmay4",
-      "name": "Vangmay Product 4",
-      "price": 70,
-      "image": "../Images/vangmay4.jpg"
-    },
-    {
-      "id": "vangmay5",
-      "name": "Vangmay Product 5",
-      "price": 75,
-      "image": "../Images/vangmay5.jpg"
-    },
-    {
-      "id": "vangmay6",
-      "name": "Vangmay Product 6",
-      "price": 80,
-      "image": "../Images/vangmay6.jpg"
-    },
-    {
-      "id": "vangmay7",
-      "name": "Vangmay Product 7",
-      "price": 85,
-      "image": "../Images/vangmay7.jpg"
-    },
-    {
-      "id": "vangmay8",
-      "name": "Vangmay Product 8",
-      "price": 90,
-      "image": "../Images/vangmay8.jpg"
-    },
-    {
-      "id": "vangmay9",
-      "name": "Vangmay Product 9",
-      "price": 95,
-      "image": "../Images/vangmay9.jpg"
-    },
-    {
-      "id": "vangmay10",
-      "name": "Vangmay Product 10",
-      "price": 100,
-      "image": "../Images/vangmay10.jpg"
-    }
-  ],
-  "magzines": [
-    {
-      "id": "magazines1",
-      "name": "Magazines Product 1",
-      "price": 55,
-      "image": "../Images/magazines1.jpg"
-    },
-    {
-      "id": "magazines2",
-      "name": "Magazines Product 2",
-      "price": 60,
-      "image": "../Images/magazines2.jpg"
-    },
-    {
-      "id": "magazines3",
-      "name": "Magazines Product 3",
-      "price": 65,
-      "image": "../Images/magazines3.jpg"
-    },
-    {
-      "id": "magazines4",
-      "name": "Magazines Product 4",
-      "price": 70,
-      "image": "../Images/magazines4.jpg"
-    },
-    {
-      "id": "magazines5",
-      "name": "Magazines Product 5",
-      "price": 75,
-      "image": "../Images/magazines5.jpg"
-    },
-    {
-      "id": "magazines6",
-      "name": "Magazines Product 6",
-      "price": 80,
-      "image": "../Images/magazines6.jpg"
-    },
-    {
-      "id": "magazines7",
-      "name": "Magazines Product 7",
-      "price": 85,
-      "image": "../Images/magazines7.jpg"
-    },
-    {
-      "id": "magazines8",
-      "name": "Magazines Product 8",
-      "price": 90,
-      "image": "../Images/magazines8.jpg"
-    },
-    {
-      "id": "magazines9",
-      "name": "Magazines Product 9",
-      "price": 95,
-      "image": "../Images/magazines9.jpg"
-    },
-    {
-      "id": "magazines10",
-      "name": "Magazines Product 10",
-      "price": 100,
-      "image": "../Images/magazines10.jpg"
+  "books": [
+    {
+      "id": "books1",
+      "name": "Books Product 1",
+      "price": 378,
+      "category": "books",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Books Product 1.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/book1.jpg",
+        "../Images/books1_2.jpg",
+        "../Images/books1_3.jpg"
+      ]
+    },
+    {
+      "id": "books2",
+      "name": "Books Product 2",
+      "price": 490,
+      "category": "books",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Books Product 2.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/book2.jpg",
+        "../Images/books2_2.jpg",
+        "../Images/books2_3.jpg"
+      ]
+    },
+    {
+      "id": "books3",
+      "name": "Books Product 3",
+      "price": 73,
+      "category": "books",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Books Product 3.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/book3.jpg",
+        "../Images/books3_2.jpg",
+        "../Images/books3_3.jpg"
+      ]
+    },
+    {
+      "id": "books4",
+      "name": "Books Product 4",
+      "price": 399,
+      "category": "books",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Books Product 4.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/book4.jpg",
+        "../Images/books4_2.jpg",
+        "../Images/books4_3.jpg"
+      ]
+    },
+    {
+      "id": "books5",
+      "name": "Books Product 5",
+      "price": 322,
+      "category": "books",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Books Product 5.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/book5.jpg",
+        "../Images/books5_2.jpg",
+        "../Images/books5_3.jpg"
+      ]
+    },
+    {
+      "id": "books6",
+      "name": "Books Product 6",
+      "price": 224,
+      "category": "books",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Books Product 6.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/book6.jpg",
+        "../Images/books6_2.jpg",
+        "../Images/books6_3.jpg"
+      ]
+    },
+    {
+      "id": "books7",
+      "name": "Books Product 7",
+      "price": 362,
+      "category": "books",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Books Product 7.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/book7.jpg",
+        "../Images/books7_2.jpg",
+        "../Images/books7_3.jpg"
+      ]
+    },
+    {
+      "id": "books8",
+      "name": "Books Product 8",
+      "price": 332,
+      "category": "books",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Books Product 8.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/book8.jpg",
+        "../Images/books8_2.jpg",
+        "../Images/books8_3.jpg"
+      ]
+    },
+    {
+      "id": "books9",
+      "name": "Books Product 9",
+      "price": 395,
+      "category": "books",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Books Product 9.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/book9.jpg",
+        "../Images/books9_2.jpg",
+        "../Images/books9_3.jpg"
+      ]
+    },
+    {
+      "id": "books10",
+      "name": "Books Product 10",
+      "price": 236,
+      "category": "books",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Books Product 10.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/book10.jpg",
+        "../Images/books10_2.jpg",
+        "../Images/books10_3.jpg"
+      ]
     }
   ],
   "decoration": [
     {
       "id": "decoration1",
       "name": "Decoration Product 1",
-      "price": 55,
-      "image": "../Images/decoration1.jpg"
+      "price": 342,
+      "category": "decoration",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Decoration Product 1.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/decoration1.jpg",
+        "../Images/decoration1_2.jpg",
+        "../Images/decoration1_3.jpg"
+      ]
     },
     {
       "id": "decoration2",
       "name": "Decoration Product 2",
-      "price": 60,
-      "image": "../Images/decoration2.jpg"
+      "price": 327,
+      "category": "decoration",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Decoration Product 2.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/decoration2.jpg",
+        "../Images/decoration2_2.jpg",
+        "../Images/decoration2_3.jpg"
+      ]
     },
     {
       "id": "decoration3",
       "name": "Decoration Product 3",
-      "price": 65,
-      "image": "../Images/decoration3.jpg"
+      "price": 372,
+      "category": "decoration",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Decoration Product 3.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/decoration3.jpg",
+        "../Images/decoration3_2.jpg",
+        "../Images/decoration3_3.jpg"
+      ]
     },
     {
       "id": "decoration4",
       "name": "Decoration Product 4",
-      "price": 70,
-      "image": "../Images/decoration4.jpg"
+      "price": 204,
+      "category": "decoration",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Decoration Product 4.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/decoration4.jpg",
+        "../Images/decoration4_2.jpg",
+        "../Images/decoration4_3.jpg"
+      ]
     },
     {
       "id": "decoration5",
       "name": "Decoration Product 5",
-      "price": 75,
-      "image": "../Images/decoration5.jpg"
+      "price": 465,
+      "category": "decoration",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Decoration Product 5.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/decoration5.jpg",
+        "../Images/decoration5_2.jpg",
+        "../Images/decoration5_3.jpg"
+      ]
     },
     {
       "id": "decoration6",
       "name": "Decoration Product 6",
-      "price": 80,
-      "image": "../Images/decoration6.jpg"
+      "price": 156,
+      "category": "decoration",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Decoration Product 6.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/decoration6.jpg",
+        "../Images/decoration6_2.jpg",
+        "../Images/decoration6_3.jpg"
+      ]
     },
     {
       "id": "decoration7",
       "name": "Decoration Product 7",
-      "price": 85,
-      "image": "../Images/decoration7.jpg"
+      "price": 224,
+      "category": "decoration",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Decoration Product 7.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/decoration7.jpg",
+        "../Images/decoration7_2.jpg",
+        "../Images/decoration7_3.jpg"
+      ]
     },
     {
       "id": "decoration8",
       "name": "Decoration Product 8",
-      "price": 90,
-      "image": "../Images/decoration8.jpg"
+      "price": 73,
+      "category": "decoration",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Decoration Product 8.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/decoration8.jpg",
+        "../Images/decoration8_2.jpg",
+        "../Images/decoration8_3.jpg"
+      ]
     },
     {
       "id": "decoration9",
       "name": "Decoration Product 9",
-      "price": 95,
-      "image": "../Images/decoration9.jpg"
+      "price": 236,
+      "category": "decoration",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Decoration Product 9.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/decoration9.jpg",
+        "../Images/decoration9_2.jpg",
+        "../Images/decoration9_3.jpg"
+      ]
     },
     {
       "id": "decoration10",
       "name": "Decoration Product 10",
-      "price": 100,
-      "image": "../Images/decoration10.jpg"
+      "price": 186,
+      "category": "decoration",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Decoration Product 10.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/decoration10.jpg",
+        "../Images/decoration10_2.jpg",
+        "../Images/decoration10_3.jpg"
+      ]
+    }
+  ],
+  "notebooks": [
+    {
+      "id": "notebooks1",
+      "name": "Notebooks Product 1",
+      "price": 330,
+      "category": "notebooks",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Notebooks Product 1.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/notebooks1.jpg",
+        "../Images/notebooks1_2.jpg",
+        "../Images/notebooks1_3.jpg"
+      ]
+    },
+    {
+      "id": "notebooks2",
+      "name": "Notebooks Product 2",
+      "price": 128,
+      "category": "notebooks",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Notebooks Product 2.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/notebooks2.jpg",
+        "../Images/notebooks2_2.jpg",
+        "../Images/notebooks2_3.jpg"
+      ]
+    },
+    {
+      "id": "notebooks3",
+      "name": "Notebooks Product 3",
+      "price": 121,
+      "category": "notebooks",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Notebooks Product 3.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/notebooks3.jpg",
+        "../Images/notebooks3_2.jpg",
+        "../Images/notebooks3_3.jpg"
+      ]
+    },
+    {
+      "id": "notebooks4",
+      "name": "Notebooks Product 4",
+      "price": 157,
+      "category": "notebooks",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Notebooks Product 4.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/notebooks4.jpg",
+        "../Images/notebooks4_2.jpg",
+        "../Images/notebooks4_3.jpg"
+      ]
+    },
+    {
+      "id": "notebooks5",
+      "name": "Notebooks Product 5",
+      "price": 165,
+      "category": "notebooks",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Notebooks Product 5.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/notebooks5.jpg",
+        "../Images/notebooks5_2.jpg",
+        "../Images/notebooks5_3.jpg"
+      ]
+    },
+    {
+      "id": "notebooks6",
+      "name": "Notebooks Product 6",
+      "price": 219,
+      "category": "notebooks",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Notebooks Product 6.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/notebooks6.jpg",
+        "../Images/notebooks6_2.jpg",
+        "../Images/notebooks6_3.jpg"
+      ]
+    },
+    {
+      "id": "notebooks7",
+      "name": "Notebooks Product 7",
+      "price": 305,
+      "category": "notebooks",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Notebooks Product 7.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/notebooks7.jpg",
+        "../Images/notebooks7_2.jpg",
+        "../Images/notebooks7_3.jpg"
+      ]
+    },
+    {
+      "id": "notebooks8",
+      "name": "Notebooks Product 8",
+      "price": 81,
+      "category": "notebooks",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Notebooks Product 8.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/notebooks8.jpg",
+        "../Images/notebooks8_2.jpg",
+        "../Images/notebooks8_3.jpg"
+      ]
+    },
+    {
+      "id": "notebooks9",
+      "name": "Notebooks Product 9",
+      "price": 342,
+      "category": "notebooks",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Notebooks Product 9.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/notebooks9.jpg",
+        "../Images/notebooks9_2.jpg",
+        "../Images/notebooks9_3.jpg"
+      ]
+    },
+    {
+      "id": "notebooks10",
+      "name": "Notebooks Product 10",
+      "price": 350,
+      "category": "notebooks",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Notebooks Product 10.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/notebooks10.jpg",
+        "../Images/notebooks10_2.jpg",
+        "../Images/notebooks10_3.jpg"
+      ]
+    }
+  ],
+  "stickers": [
+    {
+      "id": "stickers1",
+      "name": "Stickers Product 1",
+      "price": 78,
+      "category": "stickers",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Stickers Product 1.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/stickers1.jpg",
+        "../Images/stickers1_2.jpg",
+        "../Images/stickers1_3.jpg"
+      ]
+    },
+    {
+      "id": "stickers2",
+      "name": "Stickers Product 2",
+      "price": 193,
+      "category": "stickers",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Stickers Product 2.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/stickers2.jpg",
+        "../Images/stickers2_2.jpg",
+        "../Images/stickers2_3.jpg"
+      ]
+    },
+    {
+      "id": "stickers3",
+      "name": "Stickers Product 3",
+      "price": 293,
+      "category": "stickers",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Stickers Product 3.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/stickers3.jpg",
+        "../Images/stickers3_2.jpg",
+        "../Images/stickers3_3.jpg"
+      ]
+    },
+    {
+      "id": "stickers4",
+      "name": "Stickers Product 4",
+      "price": 289,
+      "category": "stickers",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Stickers Product 4.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/stickers4.jpg",
+        "../Images/stickers4_2.jpg",
+        "../Images/stickers4_3.jpg"
+      ]
+    },
+    {
+      "id": "stickers5",
+      "name": "Stickers Product 5",
+      "price": 472,
+      "category": "stickers",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Stickers Product 5.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/stickers5.jpg",
+        "../Images/stickers5_2.jpg",
+        "../Images/stickers5_3.jpg"
+      ]
+    },
+    {
+      "id": "stickers6",
+      "name": "Stickers Product 6",
+      "price": 93,
+      "category": "stickers",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Stickers Product 6.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/stickers6.jpg",
+        "../Images/stickers6_2.jpg",
+        "../Images/stickers6_3.jpg"
+      ]
+    },
+    {
+      "id": "stickers7",
+      "name": "Stickers Product 7",
+      "price": 296,
+      "category": "stickers",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Stickers Product 7.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/stickers7.jpg",
+        "../Images/stickers7_2.jpg",
+        "../Images/stickers7_3.jpg"
+      ]
+    },
+    {
+      "id": "stickers8",
+      "name": "Stickers Product 8",
+      "price": 115,
+      "category": "stickers",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Stickers Product 8.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/stickers8.jpg",
+        "../Images/stickers8_2.jpg",
+        "../Images/stickers8_3.jpg"
+      ]
+    },
+    {
+      "id": "stickers9",
+      "name": "Stickers Product 9",
+      "price": 314,
+      "category": "stickers",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Stickers Product 9.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/stickers9.jpg",
+        "../Images/stickers9_2.jpg",
+        "../Images/stickers9_3.jpg"
+      ]
+    },
+    {
+      "id": "stickers10",
+      "name": "Stickers Product 10",
+      "price": 365,
+      "category": "stickers",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Stickers Product 10.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/stickers10.jpg",
+        "../Images/stickers10_2.jpg",
+        "../Images/stickers10_3.jpg"
+      ]
+    }
+  ],
+  "clothings": [
+    {
+      "id": "clothings1",
+      "name": "Clothings Product 1",
+      "price": 103,
+      "category": "clothings",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Clothings Product 1.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/clothings1.jpg",
+        "../Images/clothings1_2.jpg",
+        "../Images/clothings1_3.jpg"
+      ]
+    },
+    {
+      "id": "clothings2",
+      "name": "Clothings Product 2",
+      "price": 223,
+      "category": "clothings",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Clothings Product 2.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/clothings2.jpg",
+        "../Images/clothings2_2.jpg",
+        "../Images/clothings2_3.jpg"
+      ]
+    },
+    {
+      "id": "clothings3",
+      "name": "Clothings Product 3",
+      "price": 55,
+      "category": "clothings",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Clothings Product 3.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/clothings3.jpg",
+        "../Images/clothings3_2.jpg",
+        "../Images/clothings3_3.jpg"
+      ]
+    },
+    {
+      "id": "clothings4",
+      "name": "Clothings Product 4",
+      "price": 418,
+      "category": "clothings",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Clothings Product 4.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/clothings4.jpg",
+        "../Images/clothings4_2.jpg",
+        "../Images/clothings4_3.jpg"
+      ]
+    },
+    {
+      "id": "clothings5",
+      "name": "Clothings Product 5",
+      "price": 155,
+      "category": "clothings",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Clothings Product 5.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/clothings5.jpg",
+        "../Images/clothings5_2.jpg",
+        "../Images/clothings5_3.jpg"
+      ]
+    },
+    {
+      "id": "clothings6",
+      "name": "Clothings Product 6",
+      "price": 340,
+      "category": "clothings",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Clothings Product 6.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/clothings6.jpg",
+        "../Images/clothings6_2.jpg",
+        "../Images/clothings6_3.jpg"
+      ]
+    },
+    {
+      "id": "clothings7",
+      "name": "Clothings Product 7",
+      "price": 238,
+      "category": "clothings",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Clothings Product 7.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/clothings7.jpg",
+        "../Images/clothings7_2.jpg",
+        "../Images/clothings7_3.jpg"
+      ]
+    },
+    {
+      "id": "clothings8",
+      "name": "Clothings Product 8",
+      "price": 438,
+      "category": "clothings",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Clothings Product 8.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/clothings8.jpg",
+        "../Images/clothings8_2.jpg",
+        "../Images/clothings8_3.jpg"
+      ]
+    },
+    {
+      "id": "clothings9",
+      "name": "Clothings Product 9",
+      "price": 466,
+      "category": "clothings",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Clothings Product 9.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/clothings9.jpg",
+        "../Images/clothings9_2.jpg",
+        "../Images/clothings9_3.jpg"
+      ]
+    },
+    {
+      "id": "clothings10",
+      "name": "Clothings Product 10",
+      "price": 454,
+      "category": "clothings",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Clothings Product 10.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/clothings10.jpg",
+        "../Images/clothings10_2.jpg",
+        "../Images/clothings10_3.jpg"
+      ]
+    }
+  ],
+  "daily-use": [
+    {
+      "id": "daily-use1",
+      "name": "Daily-Use Product 1",
+      "price": 211,
+      "category": "daily-use",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Daily-Use Product 1.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/daily-use1.jpg",
+        "../Images/daily-use1_2.jpg",
+        "../Images/daily-use1_3.jpg"
+      ]
+    },
+    {
+      "id": "daily-use2",
+      "name": "Daily-Use Product 2",
+      "price": 75,
+      "category": "daily-use",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Daily-Use Product 2.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/daily-use2.jpg",
+        "../Images/daily-use2_2.jpg",
+        "../Images/daily-use2_3.jpg"
+      ]
+    },
+    {
+      "id": "daily-use3",
+      "name": "Daily-Use Product 3",
+      "price": 330,
+      "category": "daily-use",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Daily-Use Product 3.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/daily-use3.jpg",
+        "../Images/daily-use3_2.jpg",
+        "../Images/daily-use3_3.jpg"
+      ]
+    },
+    {
+      "id": "daily-use4",
+      "name": "Daily-Use Product 4",
+      "price": 242,
+      "category": "daily-use",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Daily-Use Product 4.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/daily-use4.jpg",
+        "../Images/daily-use4_2.jpg",
+        "../Images/daily-use4_3.jpg"
+      ]
+    },
+    {
+      "id": "daily-use5",
+      "name": "Daily-Use Product 5",
+      "price": 154,
+      "category": "daily-use",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Daily-Use Product 5.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/daily-use5.jpg",
+        "../Images/daily-use5_2.jpg",
+        "../Images/daily-use5_3.jpg"
+      ]
+    },
+    {
+      "id": "daily-use6",
+      "name": "Daily-Use Product 6",
+      "price": 221,
+      "category": "daily-use",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Daily-Use Product 6.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/daily-use6.jpg",
+        "../Images/daily-use6_2.jpg",
+        "../Images/daily-use6_3.jpg"
+      ]
+    },
+    {
+      "id": "daily-use7",
+      "name": "Daily-Use Product 7",
+      "price": 301,
+      "category": "daily-use",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Daily-Use Product 7.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/daily-use7.jpg",
+        "../Images/daily-use7_2.jpg",
+        "../Images/daily-use7_3.jpg"
+      ]
+    },
+    {
+      "id": "daily-use8",
+      "name": "Daily-Use Product 8",
+      "price": 493,
+      "category": "daily-use",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Daily-Use Product 8.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/daily-use8.jpg",
+        "../Images/daily-use8_2.jpg",
+        "../Images/daily-use8_3.jpg"
+      ]
+    },
+    {
+      "id": "daily-use9",
+      "name": "Daily-Use Product 9",
+      "price": 283,
+      "category": "daily-use",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Daily-Use Product 9.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/daily-use9.jpg",
+        "../Images/daily-use9_2.jpg",
+        "../Images/daily-use9_3.jpg"
+      ]
+    },
+    {
+      "id": "daily-use10",
+      "name": "Daily-Use Product 10",
+      "price": 156,
+      "category": "daily-use",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Daily-Use Product 10.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/daily-use10.jpg",
+        "../Images/daily-use10_2.jpg",
+        "../Images/daily-use10_3.jpg"
+      ]
+    }
+  ],
+  "handloom": [
+    {
+      "id": "handloom1",
+      "name": "Handloom Product 1",
+      "price": 103,
+      "category": "handloom",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Handloom Product 1.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/handloom1.jpg",
+        "../Images/handloom1_2.jpg",
+        "../Images/handloom1_3.jpg"
+      ]
+    },
+    {
+      "id": "handloom2",
+      "name": "Handloom Product 2",
+      "price": 300,
+      "category": "handloom",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Handloom Product 2.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/handloom2.jpg",
+        "../Images/handloom2_2.jpg",
+        "../Images/handloom2_3.jpg"
+      ]
+    },
+    {
+      "id": "handloom3",
+      "name": "Handloom Product 3",
+      "price": 202,
+      "category": "handloom",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Handloom Product 3.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/handloom3.jpg",
+        "../Images/handloom3_2.jpg",
+        "../Images/handloom3_3.jpg"
+      ]
+    },
+    {
+      "id": "handloom4",
+      "name": "Handloom Product 4",
+      "price": 166,
+      "category": "handloom",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Handloom Product 4.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/handloom4.jpg",
+        "../Images/handloom4_2.jpg",
+        "../Images/handloom4_3.jpg"
+      ]
+    },
+    {
+      "id": "handloom5",
+      "name": "Handloom Product 5",
+      "price": 387,
+      "category": "handloom",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Handloom Product 5.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/handloom5.jpg",
+        "../Images/handloom5_2.jpg",
+        "../Images/handloom5_3.jpg"
+      ]
+    },
+    {
+      "id": "handloom6",
+      "name": "Handloom Product 6",
+      "price": 166,
+      "category": "handloom",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Handloom Product 6.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/handloom6.jpg",
+        "../Images/handloom6_2.jpg",
+        "../Images/handloom6_3.jpg"
+      ]
+    },
+    {
+      "id": "handloom7",
+      "name": "Handloom Product 7",
+      "price": 78,
+      "category": "handloom",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Handloom Product 7.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/handloom7.jpg",
+        "../Images/handloom7_2.jpg",
+        "../Images/handloom7_3.jpg"
+      ]
+    },
+    {
+      "id": "handloom8",
+      "name": "Handloom Product 8",
+      "price": 152,
+      "category": "handloom",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Handloom Product 8.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/handloom8.jpg",
+        "../Images/handloom8_2.jpg",
+        "../Images/handloom8_3.jpg"
+      ]
+    },
+    {
+      "id": "handloom9",
+      "name": "Handloom Product 9",
+      "price": 226,
+      "category": "handloom",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Handloom Product 9.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/handloom9.jpg",
+        "../Images/handloom9_2.jpg",
+        "../Images/handloom9_3.jpg"
+      ]
+    },
+    {
+      "id": "handloom10",
+      "name": "Handloom Product 10",
+      "price": 122,
+      "category": "handloom",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Handloom Product 10.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/handloom10.jpg",
+        "../Images/handloom10_2.jpg",
+        "../Images/handloom10_3.jpg"
+      ]
+    }
+  ],
+  "electronics": [
+    {
+      "id": "electronics1",
+      "name": "Electronics Product 1",
+      "price": 307,
+      "category": "electronics",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Electronics Product 1.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/electronics1.jpg",
+        "../Images/electronics1_2.jpg",
+        "../Images/electronics1_3.jpg"
+      ]
+    },
+    {
+      "id": "electronics2",
+      "name": "Electronics Product 2",
+      "price": 491,
+      "category": "electronics",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Electronics Product 2.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/electronics2.jpg",
+        "../Images/electronics2_2.jpg",
+        "../Images/electronics2_3.jpg"
+      ]
+    },
+    {
+      "id": "electronics3",
+      "name": "Electronics Product 3",
+      "price": 168,
+      "category": "electronics",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Electronics Product 3.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/electronics3.jpg",
+        "../Images/electronics3_2.jpg",
+        "../Images/electronics3_3.jpg"
+      ]
+    },
+    {
+      "id": "electronics4",
+      "name": "Electronics Product 4",
+      "price": 432,
+      "category": "electronics",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Electronics Product 4.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/electronics4.jpg",
+        "../Images/electronics4_2.jpg",
+        "../Images/electronics4_3.jpg"
+      ]
+    },
+    {
+      "id": "electronics5",
+      "name": "Electronics Product 5",
+      "price": 343,
+      "category": "electronics",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Electronics Product 5.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/electronics5.jpg",
+        "../Images/electronics5_2.jpg",
+        "../Images/electronics5_3.jpg"
+      ]
+    },
+    {
+      "id": "electronics6",
+      "name": "Electronics Product 6",
+      "price": 58,
+      "category": "electronics",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Electronics Product 6.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/electronics6.jpg",
+        "../Images/electronics6_2.jpg",
+        "../Images/electronics6_3.jpg"
+      ]
+    },
+    {
+      "id": "electronics7",
+      "name": "Electronics Product 7",
+      "price": 185,
+      "category": "electronics",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Electronics Product 7.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/electronics7.jpg",
+        "../Images/electronics7_2.jpg",
+        "../Images/electronics7_3.jpg"
+      ]
+    },
+    {
+      "id": "electronics8",
+      "name": "Electronics Product 8",
+      "price": 106,
+      "category": "electronics",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Electronics Product 8.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/electronics8.jpg",
+        "../Images/electronics8_2.jpg",
+        "../Images/electronics8_3.jpg"
+      ]
+    },
+    {
+      "id": "electronics9",
+      "name": "Electronics Product 9",
+      "price": 169,
+      "category": "electronics",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Electronics Product 9.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/electronics9.jpg",
+        "../Images/electronics9_2.jpg",
+        "../Images/electronics9_3.jpg"
+      ]
+    },
+    {
+      "id": "electronics10",
+      "name": "Electronics Product 10",
+      "price": 209,
+      "category": "electronics",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Electronics Product 10.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/electronics10.jpg",
+        "../Images/electronics10_2.jpg",
+        "../Images/electronics10_3.jpg"
+      ]
+    }
+  ],
+  "vangmay": [
+    {
+      "id": "vangmay1",
+      "name": "Vangmay Product 1",
+      "price": 303,
+      "category": "vangmay",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Vangmay Product 1.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/vangmay1.jpg",
+        "../Images/vangmay1_2.jpg",
+        "../Images/vangmay1_3.jpg"
+      ]
+    },
+    {
+      "id": "vangmay2",
+      "name": "Vangmay Product 2",
+      "price": 86,
+      "category": "vangmay",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Vangmay Product 2.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/vangmay2.jpg",
+        "../Images/vangmay2_2.jpg",
+        "../Images/vangmay2_3.jpg"
+      ]
+    },
+    {
+      "id": "vangmay3",
+      "name": "Vangmay Product 3",
+      "price": 301,
+      "category": "vangmay",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Vangmay Product 3.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/vangmay3.jpg",
+        "../Images/vangmay3_2.jpg",
+        "../Images/vangmay3_3.jpg"
+      ]
+    },
+    {
+      "id": "vangmay4",
+      "name": "Vangmay Product 4",
+      "price": 388,
+      "category": "vangmay",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Vangmay Product 4.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/vangmay4.jpg",
+        "../Images/vangmay4_2.jpg",
+        "../Images/vangmay4_3.jpg"
+      ]
+    },
+    {
+      "id": "vangmay5",
+      "name": "Vangmay Product 5",
+      "price": 373,
+      "category": "vangmay",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Vangmay Product 5.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/vangmay5.jpg",
+        "../Images/vangmay5_2.jpg",
+        "../Images/vangmay5_3.jpg"
+      ]
+    },
+    {
+      "id": "vangmay6",
+      "name": "Vangmay Product 6",
+      "price": 97,
+      "category": "vangmay",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Vangmay Product 6.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/vangmay6.jpg",
+        "../Images/vangmay6_2.jpg",
+        "../Images/vangmay6_3.jpg"
+      ]
+    },
+    {
+      "id": "vangmay7",
+      "name": "Vangmay Product 7",
+      "price": 88,
+      "category": "vangmay",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Vangmay Product 7.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/vangmay7.jpg",
+        "../Images/vangmay7_2.jpg",
+        "../Images/vangmay7_3.jpg"
+      ]
+    },
+    {
+      "id": "vangmay8",
+      "name": "Vangmay Product 8",
+      "price": 486,
+      "category": "vangmay",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Vangmay Product 8.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/vangmay8.jpg",
+        "../Images/vangmay8_2.jpg",
+        "../Images/vangmay8_3.jpg"
+      ]
+    },
+    {
+      "id": "vangmay9",
+      "name": "Vangmay Product 9",
+      "price": 404,
+      "category": "vangmay",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Vangmay Product 9.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/vangmay9.jpg",
+        "../Images/vangmay9_2.jpg",
+        "../Images/vangmay9_3.jpg"
+      ]
+    },
+    {
+      "id": "vangmay10",
+      "name": "Vangmay Product 10",
+      "price": 86,
+      "category": "vangmay",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Vangmay Product 10.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/vangmay10.jpg",
+        "../Images/vangmay10_2.jpg",
+        "../Images/vangmay10_3.jpg"
+      ]
+    }
+  ],
+  "magzines": [
+    {
+      "id": "magzines1",
+      "name": "Magzines Product 1",
+      "price": 142,
+      "category": "magzines",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Magzines Product 1.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/magzines1.jpg",
+        "../Images/magzines1_2.jpg",
+        "../Images/magzines1_3.jpg"
+      ]
+    },
+    {
+      "id": "magzines2",
+      "name": "Magzines Product 2",
+      "price": 350,
+      "category": "magzines",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Magzines Product 2.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/magzines2.jpg",
+        "../Images/magzines2_2.jpg",
+        "../Images/magzines2_3.jpg"
+      ]
+    },
+    {
+      "id": "magzines3",
+      "name": "Magzines Product 3",
+      "price": 376,
+      "category": "magzines",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Magzines Product 3.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/magzines3.jpg",
+        "../Images/magzines3_2.jpg",
+        "../Images/magzines3_3.jpg"
+      ]
+    },
+    {
+      "id": "magzines4",
+      "name": "Magzines Product 4",
+      "price": 350,
+      "category": "magzines",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Magzines Product 4.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/magzines4.jpg",
+        "../Images/magzines4_2.jpg",
+        "../Images/magzines4_3.jpg"
+      ]
+    },
+    {
+      "id": "magzines5",
+      "name": "Magzines Product 5",
+      "price": 223,
+      "category": "magzines",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Magzines Product 5.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/magzines5.jpg",
+        "../Images/magzines5_2.jpg",
+        "../Images/magzines5_3.jpg"
+      ]
+    },
+    {
+      "id": "magzines6",
+      "name": "Magzines Product 6",
+      "price": 54,
+      "category": "magzines",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Magzines Product 6.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/magzines6.jpg",
+        "../Images/magzines6_2.jpg",
+        "../Images/magzines6_3.jpg"
+      ]
+    },
+    {
+      "id": "magzines7",
+      "name": "Magzines Product 7",
+      "price": 214,
+      "category": "magzines",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Magzines Product 7.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/magzines7.jpg",
+        "../Images/magzines7_2.jpg",
+        "../Images/magzines7_3.jpg"
+      ]
+    },
+    {
+      "id": "magzines8",
+      "name": "Magzines Product 8",
+      "price": 332,
+      "category": "magzines",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Magzines Product 8.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/magzines8.jpg",
+        "../Images/magzines8_2.jpg",
+        "../Images/magzines8_3.jpg"
+      ]
+    },
+    {
+      "id": "magzines9",
+      "name": "Magzines Product 9",
+      "price": 397,
+      "category": "magzines",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Magzines Product 9.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/magzines9.jpg",
+        "../Images/magzines9_2.jpg",
+        "../Images/magzines9_3.jpg"
+      ]
+    },
+    {
+      "id": "magzines10",
+      "name": "Magzines Product 10",
+      "price": 257,
+      "category": "magzines",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Magzines Product 10.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/magzines10.jpg",
+        "../Images/magzines10_2.jpg",
+        "../Images/magzines10_3.jpg"
+      ]
+    }
+  ],
+  "puja-accessories": [
+    {
+      "id": "puja-accessories1",
+      "name": "Puja-Accessories Product 1",
+      "price": 314,
+      "category": "puja-accessories",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Puja-Accessories Product 1.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/puja-accessories1.jpg",
+        "../Images/puja-accessories1_2.jpg",
+        "../Images/puja-accessories1_3.jpg"
+      ]
+    },
+    {
+      "id": "puja-accessories2",
+      "name": "Puja-Accessories Product 2",
+      "price": 299,
+      "category": "puja-accessories",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Puja-Accessories Product 2.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/puja-accessories2.jpg",
+        "../Images/puja-accessories2_2.jpg",
+        "../Images/puja-accessories2_3.jpg"
+      ]
+    },
+    {
+      "id": "puja-accessories3",
+      "name": "Puja-Accessories Product 3",
+      "price": 385,
+      "category": "puja-accessories",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Puja-Accessories Product 3.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/puja-accessories3.jpg",
+        "../Images/puja-accessories3_2.jpg",
+        "../Images/puja-accessories3_3.jpg"
+      ]
+    },
+    {
+      "id": "puja-accessories4",
+      "name": "Puja-Accessories Product 4",
+      "price": 241,
+      "category": "puja-accessories",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Puja-Accessories Product 4.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/puja-accessories4.jpg",
+        "../Images/puja-accessories4_2.jpg",
+        "../Images/puja-accessories4_3.jpg"
+      ]
+    },
+    {
+      "id": "puja-accessories5",
+      "name": "Puja-Accessories Product 5",
+      "price": 310,
+      "category": "puja-accessories",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Puja-Accessories Product 5.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/puja-accessories5.jpg",
+        "../Images/puja-accessories5_2.jpg",
+        "../Images/puja-accessories5_3.jpg"
+      ]
+    },
+    {
+      "id": "puja-accessories6",
+      "name": "Puja-Accessories Product 6",
+      "price": 265,
+      "category": "puja-accessories",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Puja-Accessories Product 6.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/puja-accessories6.jpg",
+        "../Images/puja-accessories6_2.jpg",
+        "../Images/puja-accessories6_3.jpg"
+      ]
+    },
+    {
+      "id": "puja-accessories7",
+      "name": "Puja-Accessories Product 7",
+      "price": 463,
+      "category": "puja-accessories",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Puja-Accessories Product 7.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/puja-accessories7.jpg",
+        "../Images/puja-accessories7_2.jpg",
+        "../Images/puja-accessories7_3.jpg"
+      ]
+    },
+    {
+      "id": "puja-accessories8",
+      "name": "Puja-Accessories Product 8",
+      "price": 335,
+      "category": "puja-accessories",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Puja-Accessories Product 8.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/puja-accessories8.jpg",
+        "../Images/puja-accessories8_2.jpg",
+        "../Images/puja-accessories8_3.jpg"
+      ]
+    },
+    {
+      "id": "puja-accessories9",
+      "name": "Puja-Accessories Product 9",
+      "price": 178,
+      "category": "puja-accessories",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Puja-Accessories Product 9.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/puja-accessories9.jpg",
+        "../Images/puja-accessories9_2.jpg",
+        "../Images/puja-accessories9_3.jpg"
+      ]
+    },
+    {
+      "id": "puja-accessories10",
+      "name": "Puja-Accessories Product 10",
+      "price": 351,
+      "category": "puja-accessories",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Puja-Accessories Product 10.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/puja-accessories10.jpg",
+        "../Images/puja-accessories10_2.jpg",
+        "../Images/puja-accessories10_3.jpg"
+      ]
+    }
+  ],
+  "posters": [
+    {
+      "id": "posters1",
+      "name": "Posters Product 1",
+      "price": 230,
+      "category": "posters",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Posters Product 1.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/posters1.jpg",
+        "../Images/posters1_2.jpg",
+        "../Images/posters1_3.jpg"
+      ]
+    },
+    {
+      "id": "posters2",
+      "name": "Posters Product 2",
+      "price": 294,
+      "category": "posters",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Posters Product 2.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/posters2.jpg",
+        "../Images/posters2_2.jpg",
+        "../Images/posters2_3.jpg"
+      ]
+    },
+    {
+      "id": "posters3",
+      "name": "Posters Product 3",
+      "price": 76,
+      "category": "posters",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Posters Product 3.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/posters3.jpg",
+        "../Images/posters3_2.jpg",
+        "../Images/posters3_3.jpg"
+      ]
+    },
+    {
+      "id": "posters4",
+      "name": "Posters Product 4",
+      "price": 295,
+      "category": "posters",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Posters Product 4.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/posters4.jpg",
+        "../Images/posters4_2.jpg",
+        "../Images/posters4_3.jpg"
+      ]
+    },
+    {
+      "id": "posters5",
+      "name": "Posters Product 5",
+      "price": 223,
+      "category": "posters",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Posters Product 5.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/posters5.jpg",
+        "../Images/posters5_2.jpg",
+        "../Images/posters5_3.jpg"
+      ]
+    },
+    {
+      "id": "posters6",
+      "name": "Posters Product 6",
+      "price": 247,
+      "category": "posters",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Posters Product 6.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/posters6.jpg",
+        "../Images/posters6_2.jpg",
+        "../Images/posters6_3.jpg"
+      ]
+    },
+    {
+      "id": "posters7",
+      "name": "Posters Product 7",
+      "price": 370,
+      "category": "posters",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Posters Product 7.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/posters7.jpg",
+        "../Images/posters7_2.jpg",
+        "../Images/posters7_3.jpg"
+      ]
+    },
+    {
+      "id": "posters8",
+      "name": "Posters Product 8",
+      "price": 367,
+      "category": "posters",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Posters Product 8.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/posters8.jpg",
+        "../Images/posters8_2.jpg",
+        "../Images/posters8_3.jpg"
+      ]
+    },
+    {
+      "id": "posters9",
+      "name": "Posters Product 9",
+      "price": 77,
+      "category": "posters",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Posters Product 9.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/posters9.jpg",
+        "../Images/posters9_2.jpg",
+        "../Images/posters9_3.jpg"
+      ]
+    },
+    {
+      "id": "posters10",
+      "name": "Posters Product 10",
+      "price": 284,
+      "category": "posters",
+      "language": "Hindi",
+      "dimension": "8.5 x 5.5 inches",
+      "description": "This is a detailed description of Posters Product 10.",
+      "aspects": [
+        "High quality material",
+        "Made with devotion",
+        "Eco-friendly packaging"
+      ],
+      "images": [
+        "../Images/posters10.jpg",
+        "../Images/posters10_2.jpg",
+        "../Images/posters10_3.jpg"
+      ]
     }
   ]
 }

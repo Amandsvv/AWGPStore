@@ -67,3 +67,21 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener('resize', adjustCategories);
     window.addEventListener('load', adjustCategories);
 })
+
+fetch('../data/categories.json')
+  .then(res => res.json())
+  .then(categories => {
+    const container = document.getElementById('categoryGrid');
+    categories.slice(0, 6).forEach(cat => {
+      const div = document.createElement('div');
+      div.className = 'category-item';
+      div.innerHTML = `
+        <a href="../html/category.html?category=${cat.slug}">
+          <img src="${cat.image}" alt="${cat.name}">
+          <p>${cat.name}</p>
+        </a>
+      `;
+      container.appendChild(div);
+    });
+  })
+  .catch(err => console.error("Failed to load categories:", err));
