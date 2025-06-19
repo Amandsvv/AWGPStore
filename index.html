@@ -25,7 +25,7 @@
                 <div class="user-icon-box">
                     <a href="#"><img src="Images/user.png" alt="User icon">Profile</a>
                     <a href="#"><img src="Images/box.png" alt="">My orders</a>
-                    <a href=""><img src="Images/heart.png" alt="">Wishlist</a>
+                    <a href="../html/wishlist.html"><img src="Images/heart.png" alt="">Wishlist</a>
                     <a href=""><img src="Images/logout.png" alt="">logout</a>
                 </div>
             </li>
@@ -37,7 +37,7 @@
             <ul>
                 <li><a href="../html/about.html">About Us</a></li>
                 <li class="product-btn">Products <img class="arr" src="Images/left.png" alt="arrow" width="15px">
-                   <div class="products-box box" id="categoryLinksBox"></div>
+                    <div class="products-box box" id="categoryLinksBox"></div>
                 </li>
                 <li><a href="../html/contact.html">Contact</a></li>
                 <li class="otherlink-btn">Other Links <img class="arr" src="Images/left.png" alt="arrow" width="15px">
@@ -73,6 +73,8 @@
 
     </section>
 
+    <div id="popup-message"></div>
+
     <section class="hero">
         <div class="left-arrow"><img src="Images/left.png" alt="left-arrow" width="25" height="25"></div>
         <div class="text">
@@ -93,67 +95,22 @@
         <div class="category-grid" id="categoryGrid"></div>
     </section>
 
-
     <section class="featured-products">
         <h3>Featured Products</h3>
         <div class="product-grid container">
             <button class="btn-scroll btn-left" id="btn-left">&#10094;</button>
-            <div class="products-wrapper" id="products-wrapper">
-                <div class="product-item">
-                    <img src="Images/product-1.png" alt="product-1">
-                    <div>
-                        <p>Amalaki Vati</p><br>
-                        <p>Rs./ 83</p>
-                    </div>
-                    <div class="add-btn">
-                        <img src="Images/heart.png" alt="add to wishlist">
-                        <img src="Images/cart.png" alt="Add to cart">
-                    </div>
-                </div>
-                <div class="product-item">
-                    <img src="Images/product-2.png" alt="product-1">
-                    <div>
-                        <p>Gayatari pari..</p><br>
-                        <p>Rs./ 24</p>
-                    </div>
-                    <div class="add-btn">
-                        <img src="Images/heart.png" alt="add to wishlist">
-                        <img src="Images/cart.png" alt="Add to cart">
-                    </div>
-                </div>
-                <div class="product-item">
-                    <img src="Images/product-3.png" alt="product-1">
-                    <div>
-                        <p>The legend of a ..</p><br>
-                        <p>Rs./ 140</p>
-                    </div>
-                    <div class="add-btn">
-                        <img src="Images/heart.png" alt="add to wishlist">
-                        <img src="Images/cart.png" alt="Add to cart">
-                    </div>
-                </div>
-                <div class="product-item">
-                    <img src="Images/product-4.png" alt="product-1">
-                    <div>
-                        <p>Gayatari Mahapura..</p><br>
-                        <p>Rs./ 9</p>
-                    </div>
-                    <div class="add-btn">
-                        <img src="Images/heart.png" alt="add to wishlist">
-                        <img src="Images/cart.png" alt="Add to cart">
-                    </div>
-                </div>
-            </div>
+            <div class="products-wrapper" id="products-wrapper"></div>
             <button class="btn-scroll btn-right" id="btn-right">&#10095;</button>
         </div>
     </section>
+
 
     <footer class="footer">
         <div class="top-footer">
             <div class="footer-column">
                 <h4>AWGP Store</h4>
                 <div class="contact">
-                <p><a href="../html/contact.html">Contact Us</a></p>
+                    <p><a href="../html/contact.html">Contact Us</a></p>
                     <p>+91 9258 987979</p>
                     <p>shop@awgpstore.com</p>
                 </div>
@@ -178,6 +135,12 @@
 
     <script src="JS/main.js"></script>
     <script src="JS/index.js"></script>
+    <script src="JS/wishlistCart.js"></script>
+
+    <script>
+       
+    </script>
+
 </body>
 
 </html>

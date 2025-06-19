@@ -21,6 +21,38 @@ async function fetchProductData() {
   }
 }
 
+
+async function fetchProductData() {
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const productId = params.get("id");
+    const category = params.get("category"); // just in case
+
+    // Load main product.json
+    const res = await fetch("../data/product.json");
+    const allProducts = await res.json();
+    products = Object.values(allProducts).flat();
+
+    // Try finding the product
+    let product = products.find(p => p.id === productId);
+
+    if (!product) {
+      // Try fallback to featured products
+      const featuredRes = await fetch("../data/popular.json");
+      const featuredProducts = await featuredRes.json();
+      product = featuredProducts.find(p => p.id === productId);
+    }
+
+    if (product) {
+      renderProduct(product);
+    } else {
+      document.getElementById("product-detail-container").innerHTML = "<p>Product not found</p>";
+    }
+  } catch (err) {
+    console.error("Failed to load product data", err);
+  }
+}
+
 function renderProduct(product) {
   const container = document.getElementById("product-detail-container");
 
@@ -89,5 +121,6 @@ function renderProduct(product) {
     });
   });
 }
+
 
 fetchProductData();

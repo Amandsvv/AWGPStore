@@ -1,7 +1,78 @@
 [
-  { "name": "CD/DVD", "slug": "cd", "image": "Images/cd.png" },
-  { "name": "Health Products", "slug": "health-products", "image": "Images/wood.png" },
-  { "name": "Books", "slug": "books", "image": "Images/book.jpg" },
-  { "name": "Decoration", "slug": "decoration", "image": "Images/decor.jpg" },
-  { "name": "Notebook", "slug": "notebooks", "image": "Images/notebook.jpg" }
+  {
+    "id": "books10",
+    "name": "Books Product 10",
+    "price": 236,
+    "category": "books",
+    "language": "Hindi",
+    "dimension": "8.5 x 5.5 inches",
+    "description": "This is a detailed description of Books Product 10.",
+    "aspects": [
+      "High quality material",
+      "Made with devotion",
+      "Eco-friendly packaging"
+    ],
+    "images": [
+      "../Images/book10.jpg",
+      "../Images/books10_2.jpg",
+      "../Images/books10_3.jpg"
+    ]
+  },
+  {
+    "id": "decoration1",
+    "name": "Decoration Product 1",
+    "price": 342,
+    "category": "decoration",
+    "language": "Hindi",
+    "dimension": "8.5 x 5.5 inches",
+    "description": "This is a detailed description of Decoration Product 1.",
+    "aspects": [
+      "High quality material",
+      "Made with devotion",
+      "Eco-friendly packaging"
+    ],
+    "images": [
+      "../Images/decoration1.jpg",
+      "../Images/decoration1_2.jpg",
+      "../Images/decoration1_3.jpg"
+    ]
+  },
+  {
+    "id": "decoration5",
+    "name": "Decoration Product 5",
+    "price": 465,
+    "category": "decoration",
+    "language": "Hindi",
+    "dimension": "8.5 x 5.5 inches",
+    "description": "This is a detailed description of Decoration Product 5.",
+    "aspects": [
+      "High quality material",
+      "Made with devotion",
+      "Eco-friendly packaging"
+    ],
+    "images": [
+      "../Images/decoration5.jpg",
+      "../Images/decoration5_2.jpg",
+      "../Images/decoration5_3.jpg"
+    ]
+  },
+  {
+    "id": "notebooks2",
+    "name": "Notebooks Product 2",
+    "price": 128,
+    "category": "notebooks",
+    "language": "Hindi",
+    "dimension": "8.5 x 5.5 inches",
+    "description": "This is a detailed description of Notebooks Product 2.",
+    "aspects": [
+      "High quality material",
+      "Made with devotion",
+      "Eco-friendly packaging"
+    ],
+    "images": [
+      "../Images/notebooks2.jpg",
+      "../Images/notebooks2_2.jpg",
+      "../Images/notebooks2_3.jpg"
+    ]
+  }
 ]

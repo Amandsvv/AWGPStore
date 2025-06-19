@@ -1,43 +1,43 @@
 document.querySelector(".User-icon").addEventListener('click', () => {
-    const userBox = document.querySelector(".user-icon-box");
+  const userBox = document.querySelector(".user-icon-box");
 
-    if (userBox.style.display === "none") {
-        userBox.style.display = "flex";
-    } else {
-        userBox.style.display = "none"
-    }
+  if (userBox.style.display === "none") {
+    userBox.style.display = "flex";
+  } else {
+    userBox.style.display = "none"
+  }
 });
 
-document.querySelector(".menu-icon").addEventListener('click', ()=> {
+document.querySelector(".menu-icon").addEventListener('click', () => {
   const menuBox = document.querySelector(".menu")
 
-    if (menuBox.style.display === "none") {
-        menuBox.style.display = "flex";
-    } else {
-        menuBox.style.display = "none"
-    }
+  if (menuBox.style.display === "none") {
+    menuBox.style.display = "flex";
+  } else {
+    menuBox.style.display = "none"
+  }
 })
 
 
 document.querySelector(".product-btn").addEventListener('click', () => {
-    const userBox = document.querySelector(".products-box");
+  const userBox = document.querySelector(".products-box");
 
-    if (userBox.style.display === "none") {
-        userBox.style.display = "flex";
-    } else {
-        userBox.style.display = "none"
-    }
+  if (userBox.style.display === "none") {
+    userBox.style.display = "flex";
+  } else {
+    userBox.style.display = "none"
+  }
 });
 
 
 document.querySelector(".otherlink-btn").addEventListener('click', () => {
-    const userBox = document.querySelector(".otherlink-box");
+  const userBox = document.querySelector(".otherlink-box");
 
-    if (userBox.style.display === "none") {
-        userBox.style.display = "flex";
-    } else {
-        userBox.style.display = "none"
-    }
+  if (userBox.style.display === "none") {
+    userBox.style.display = "flex";
+  } else {
+    userBox.style.display = "none"
+  }
 });
 
 
@@ -69,7 +69,7 @@ fetch('../data/categories.json') // update with correct path
   })
   .catch(error => console.error('Error loading categories:', error));
 
-  fetch('../data/popular.json')
+fetch('../data/popular.json')
   .then(res => res.json())
   .then(categories => {
     const container = document.getElementById('popular-cat');
@@ -85,3 +85,52 @@ fetch('../data/categories.json') // update with correct path
     });
   })
   .catch(err => console.error("Failed to load categories:", err));
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  fetch("../data/popular.json")
+    .then(res => res.json())
+    .then(products => {
+      const wrapper = document.getElementById("products-wrapper");
+      wrapper.innerHTML = "";
+
+      products.forEach(product => {
+        const productDiv = document.createElement("div");
+        productDiv.className = "product-item";
+        productDiv.innerHTML = `
+          <a href="../html/goods.html?&id=${product.id}" style="text-decoration: none; color: inherit;">
+              <img src="${product.images[0]}" alt="${product.name}">
+              <div>
+              <p>${product.name}</p>
+              <p>Rs./ ${product.price}</p>
+              </div>
+          </a>
+          <div class="add-btn">
+              <img src="../Images/heart.png" alt="add to wishlist" class="wishlist-btn" data-id="${product.id}">
+              <img src="../Images/cart.png" alt="Add to cart" class="cart-btn" data-id="${product.id}">
+          </div>
+          `;
+        wrapper.appendChild(productDiv);
+      });
+
+      attachEvents(products);
+    });
+});
+
+function attachEvents(products) {
+  document.querySelectorAll(".wishlist-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const id = btn.dataset.id;
+      const product = products.find(p => p.id === id);
+      addToWishlist(product);
+    });
+  });
+
+  document.querySelectorAll(".cart-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const id = btn.dataset.id;
+      const product = products.find(p => p.id === id);
+      addToCart(product);
+    });
+  });
+}

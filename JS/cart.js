@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const subtotalEl = document.getElementById("subtotal");
   const itemCountEl = document.getElementById("total-items");
   const totalEl = document.getElementById("total");
+  const cartSum = document.querySelector(".cart-summary")
 
   const DELIVERY_CHARGE = 40;
 
@@ -34,9 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (cart.length === 0) {
       cartContainer.innerHTML = "<p>Your cart is empty.</p>";
-      subtotalEl.textContent = "Rs./ 0";
-      itemCountEl.textContent = "Sub Total (0 items)";
-      totalEl.textContent = `Rs./ ${DELIVERY_CHARGE}`;
+      cartSum.innerHTML=""
       return;
     }
 
@@ -50,17 +49,19 @@ document.addEventListener("DOMContentLoaded", function () {
           <div>
             <p class="product-name">${product.name}</p>
             <p class="product-lang">Language : ${product.language}</p>
+            <p class="product-price">Rs./ ${product.price}</p>
           </div>
         </div>
-        <div class="product-price">Rs./ ${product.price}</div>
-        <div class="product-qty">
-          <button class="qty-btn" data-id="${product.id}" data-category="${product.category}" data-action="decrease">-</button>
-          <span class="qty">${product.quantity}</span>
-          <button class="qty-btn" data-id="${product.id}" data-category="${product.category}" data-action="increase">+</button>
-        </div>
-        <div class="product-subtotal">Rs./ ${product.price * product.quantity}</div>
-        <div class="product-action">
-          <button class="remove-btn" data-id="${product.id}" data-category="${product.category}">🗑️</button>
+        <div class="cart-right-details">
+          <div class="product-qty">
+            <button class="qty-btn" data-id="${product.id}" data-category="${product.category}" data-action="decrease">-</button>
+            <span class="qty">${product.quantity}</span>
+            <button class="qty-btn" data-id="${product.id}" data-category="${product.category}" data-action="increase">+</button>
+          </div>
+          <div class="product-subtotal">Rs./ ${product.price * product.quantity}</div>
+          <div class="product-action">
+            <button class="remove-btn" data-id="${product.id}" data-category="${product.category}"><img src="../Images/recycle-bin.png" alt="delete button"></button>
+          </div>
         </div>
       `;
 
@@ -94,4 +95,9 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   updateCartUI();
+
+  document.querySelector('.checkout-btn').addEventListener('click',()=>{
+    console.log("clicked")
+    window.location.href ="checkOut.html"
+  })
 });
